@@ -22,11 +22,19 @@ header {
     position: fixed;
     top: 0;
     width: 100%;
-    color: #fff;
+    height: 85px;
+    color: #efe9fa;
+    padding-top: 10px;
+}
+
+nav {
+    width: 95%;
+    margin: 0 auto;
+    max-width: 2000px;
 }
 
 #logo {
-    display: inline;
+    display: inline-block;
     font-size: 30px;
     text-transform: lowercase;
 }
@@ -40,4 +48,47 @@ header {
     text-transform: uppercase;
     color: #ffff00;
     font-weight: 500;
+}
+
+
+.menu {
+    display: inline-block;
+    list-style-type: none;
+    line-height: 70px;
+    font-size: 15px; 
+}
+
+.menu li {
+    display: inline;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #efe9fa;
+    margin: 0 5px;
+}
+
+#menu-left {
+    margin-left: 10px;
+}
+
+#menu-left a {
+    color: #efe9fa;
+}
+
+#menu-right {
+    float: right;
+    position: relative;
+    top: 5px;
+}
+
+#menu-right a {
+    background: #00ffff;
+    color: #02040f;
+    padding: 5px 8px;
+    border-radius: 10px;
+}
+
+.join-button {
+    background: #ffff00 !important;
 }
