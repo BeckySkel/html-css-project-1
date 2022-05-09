@@ -13,12 +13,13 @@ body {
     color: #02040f;
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
+    height: 150vh;
 }
 
 /* Header, logo & menu */
 
 header {
-    background: #02040f;
+    background: rgba(2,4,15,0.7);
     position: fixed;
     top: 0;
     width: 100%;
