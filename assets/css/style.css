@@ -76,6 +76,10 @@ nav {
     color: #efe9fa;
 }
 
+#menu-left a:hover {
+    text-decoration: underline;
+}
+
 #menu-right {
     float: right;
     position: relative;
@@ -89,6 +93,14 @@ nav {
     border-radius: 10px;
 }
 
+#menu-right a:hover {
+    background: #00d1cc;
+}
+
 .join-button {
     background: #ffff00 !important;
+}
+
+.join-button:hover {
+    background: #d1cc00 !important;
 }
