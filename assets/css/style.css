@@ -198,3 +198,20 @@ nav {
     font-size: 100px;
     padding-left: 30px;
 }
+
+.card {
+    background: #476a6f;
+    color: #fff;
+    width: 280px;
+    height: 280px;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.card i {
+    padding: 40px;
+    font-size: 75px;
+    color: #ffff00;
+}
