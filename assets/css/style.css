@@ -141,3 +141,33 @@ nav {
     bottom: 20vh;
     left: 0;
 }
+
+/* Key points & About us */
+
+#key-points {
+    height: 50vh;
+    width: 100%;
+    background: #00ffff;
+}
+
+#slogan {
+    margin-left: 50px;
+    color: #efe9fa;
+    text-shadow: 5px 5px #02040f;
+    font-style: italic;
+    position: relative;
+    bottom: 160px;
+}
+
+#slogan h2 {
+    opacity: 0.5;
+    font-size: 100px;
+}
+
+#slogan h3 {
+    line-height: 0;
+    position: relative;
+    bottom: 10px;
+    font-size: 100px;
+    padding-left: 30px;
+}
