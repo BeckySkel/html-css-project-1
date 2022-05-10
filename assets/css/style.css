@@ -16,6 +16,36 @@ body {
     height: 300vh;
 }
 
+.single-centered {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.left-third {
+    width: 35%;
+    float: left;
+    display: inline-block;
+    /* background: yellow;
+    height: 300px; */
+}
+
+.center-third {
+    width: 30%;
+    margin: 0 auto;
+    display: inline-block;
+    /* background: red;
+    height: 300px; */
+}
+
+.right-third {
+    width: 35%;
+    float: right;
+    display: inline-block;
+    clear: right;
+    /* background: orange;
+    height: 300px; */
+}
+
 /* Header, logo & menu */
 
 header {
@@ -30,8 +60,6 @@ header {
 }
 
 nav {
-    width: 95%;
-    margin: 0 auto;
     max-width: 2000px;
 }
 
@@ -151,7 +179,7 @@ nav {
 }
 
 #slogan {
-    margin-left: 50px;
+    /* margin-left: 50px; */
     color: #efe9fa;
     text-shadow: 5px 5px #02040f;
     font-style: italic;
