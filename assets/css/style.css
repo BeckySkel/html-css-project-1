@@ -24,7 +24,6 @@ body {
 .left-third {
     width: 35%;
     float: left;
-    display: inline-block;
     /* background: yellow;
     height: 300px; */
 }
@@ -40,7 +39,6 @@ body {
 .right-third {
     width: 35%;
     float: right;
-    display: inline-block;
     clear: right;
     /* background: orange;
     height: 300px; */
@@ -226,4 +224,8 @@ nav {
 
 #right-card {
     float: left;
+}
+
+#about-us {
+    font-size: 20px;
 }
