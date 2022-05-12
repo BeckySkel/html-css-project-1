@@ -16,10 +16,24 @@ body {
     height: 300vh;
 }
 
-.single-centered {
+.single-centered-large {
     width: 95%;
     margin: 0 auto;
+    max-width: 2500px;
 }
+
+.single-centered-medium {
+    width: 95%;
+    margin: 0 auto;
+    max-width: 2000px;
+}
+
+.single-centered-small {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1750px;
+}
+
 
 .left-third {
     width: 35%;
@@ -54,11 +68,11 @@ header {
     height: 85px;
     color: #efe9fa;
     padding-top: 10px;
-    z-index: 1;
+    z-index: 2;
 }
 
 nav {
-    max-width: 2000px;
+    /* max-width: 2000px !important; */
 }
 
 #logo {
@@ -127,6 +141,10 @@ nav {
 
 .join-button {
     background: #ffff00 !important;
+    color: #02040f;
+    padding: 5px 8px;
+    border-radius: 10px;
+    text-decoration: none;
 }
 
 .join-button:hover {
@@ -171,7 +189,7 @@ nav {
 /* Key points & About us */
 
 #key-points {
-    height: 50vh;
+    height: 600px;
     width: 100%;
     background: #00ffff;
 }
@@ -206,6 +224,8 @@ nav {
     border-radius: 5px;
     text-align: center;
     font-size: 25px;
+    position: relative;
+    bottom: 10px;
 }
 
 .card i {
@@ -226,6 +246,36 @@ nav {
     float: left;
 }
 
-#about-us {
+#about-us h2 {
+    font-size: 90px;
+    text-align: center;
+    color: #02040f;
+    text-shadow: 5px 5px #efe9fa;
+    position: relative;
+    bottom: 75px;
+}
+
+#about-us img {
+    height: 350px;
+    width: 350px;
+    box-shadow: 5px 5px #476a6f;
+    border-radius: 5px;
+    background: pink;
+    object-fit: cover;
+}
+
+#about-us p {
+    float: right;
+    width: 70%;
     font-size: 20px;
+}
+
+#about-us a {
+    margin: 30px auto 0;
+    font-size: 25px;
+    width: 140px;
+    border: 3px solid #02040f;
+    border-radius: 15px;
+    display: block;
+    text-align: center;
 }
