@@ -326,3 +326,9 @@ nav {
     width: 100%;
     background: blue;
 }
+
+.peak-image img {
+    height: inherit;
+    width: inherit;
+    object-fit: cover;
+}
