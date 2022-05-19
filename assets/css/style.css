@@ -34,6 +34,15 @@ body {
     max-width: 1750px;
 }
 
+.left-half {
+    width: 50%;
+    float: left;
+}
+
+.right-half {
+    width: 50%;
+    float: left;
+}
 
 .left-third {
     width: 33%;
@@ -289,7 +298,7 @@ nav {
 }
 
 
-/*  */
+/* Gallery/Peak Inside Gym */
 
 #peak-inside {
     background: #efe9fa;
@@ -325,7 +334,6 @@ nav {
 .peak-image {
     height: 300px;
     width: 100%;
-    background: blue;
 }
 
 .peak-image img {
