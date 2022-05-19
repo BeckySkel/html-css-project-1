@@ -357,6 +357,11 @@ nav {
     top: 100px;
 }
 
+#faqs h2 i {
+    color: #476a6f;
+    font-size: 65px;
+}
+
 #faqs .single-centered-medium {
     position: relative;
     top: 150px;
