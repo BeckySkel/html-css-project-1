@@ -370,6 +370,8 @@ nav {
 details {
     background: #fff;
     border: 3px solid #02040f;
+    border-bottom: 2px solid #02040f;
+    background: #02040f;
     border-radius: 5px;
     width: 700px;
     font-size: 25px;
@@ -381,6 +383,9 @@ summary {
     background: #00ffff;
     padding: 5px 15px;
     font-size: 30px;
+    position: relative;
+    bottom: 1px;
+    border-radius: 4px;
 }
 
 summary::marker {
@@ -397,5 +402,12 @@ details:hover summary {
 
 details[open] summary {
     background: #00ffff;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+details[open] {
+    border-bottom: 3px solid #02040f;
+    background: #fff;
 }
 
