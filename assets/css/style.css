@@ -345,7 +345,51 @@ nav {
 
 /* FAQs */
 
+#faqs {
+    width: 100%;
+    height: 1000px;
+}
 
+#faq-heading {
+    background: #efe9ef;
+    border-radius: 5px;
+    width: 975px;
+    height: 45px;
+    position: relative;
+    top: 100px;
+    margin: 0 auto;
+}
 
+#faqs h2 {
+    text-align: center;
+    font-size: 70px;
+    position: relative;
+    bottom: 45px;
+    left: -25px;
+}
+
+#faqs .single-centered-medium {
+    position: relative;
+    top: 200px;
+}
+
+details {
+    background: #fff;
+    border: 3px solid #02040f;
+    border-radius: 5px;
+    width: 700px;
+    font-size: 25px;
+    margin: 50px auto;
+}
+
+summary {
+    background: #00ffff;
+    padding: 5px 15px;
+    font-size: 30px;
+}
+
+details p {
+    padding: 15px;
+}
 
 
