@@ -350,27 +350,16 @@ nav {
     height: 1000px;
 }
 
-#faq-heading {
-    background: #efe9ef;
-    border-radius: 5px;
-    width: 975px;
-    height: 45px;
-    position: relative;
-    top: 100px;
-    margin: 0 auto;
-}
-
 #faqs h2 {
     text-align: center;
-    font-size: 70px;
+    font-size: 80px;
     position: relative;
-    bottom: 45px;
-    left: -25px;
+    top: 100px;
 }
 
 #faqs .single-centered-medium {
     position: relative;
-    top: 200px;
+    top: 150px;
 }
 
 details {
@@ -380,6 +369,7 @@ details {
     width: 700px;
     font-size: 25px;
     margin: 50px auto;
+    box-shadow: 5px 5px #476a6f;
 }
 
 summary {
@@ -388,8 +378,19 @@ summary {
     font-size: 30px;
 }
 
+summary::marker {
+    color: #476a6f;
+}
+
 details p {
     padding: 15px;
 }
 
+details:hover summary {
+    background: #00d1cc;
+}
+
+details[open] summary {
+    background: #00ffff;
+}
 
