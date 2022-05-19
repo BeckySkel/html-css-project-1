@@ -294,6 +294,7 @@ nav {
 #peak-inside {
     background: #efe9fa;
     height: 600px;
+    width: 100%;
 }
 
 .peak-caption-outer {
@@ -332,3 +333,11 @@ nav {
     width: inherit;
     object-fit: cover;
 }
+
+
+/* FAQs */
+
+
+
+
+
