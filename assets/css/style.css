@@ -444,6 +444,7 @@ details[open] {
     top: 100px;
     margin: 0 auto;
     width: 6000px;
+    height: 260px;
 }
 
 #scrolling-reviews-container {
@@ -451,6 +452,7 @@ details[open] {
     background: #fff;
     position: absolute;
     left: 2575px;
+    transition: all 0.5s;
   }
 
 .member-review {
@@ -479,7 +481,7 @@ button {
     font-size: 20px;
     height: 50px;
     width: 50px;
-    border: 3px black solid;
+    border: 3px #02040f solid;
     border-radius: 50%;
     z-index: 3;
 }
@@ -540,3 +542,35 @@ button:hover {
 .three:focus ~ #scrolling-reviews-container {
   left: 870px;
 }
+
+#block-window {
+    width: inherit;
+    height: inherit;
+    margin: 0 auto;
+    position: relative;
+    /* border: blue 2px solid; */
+  }
+  
+  #block-left {
+    width: 2575px;
+    background: #ffff00;
+    height: inherit;
+    float: left;
+  }
+  
+  #block-right {
+    width: 2575px;
+    background: #ffff00;
+    height: inherit;
+    float: right;
+  }
+
+  #border {
+    height: 240px;
+    width: 840px;
+    border: 5px #02040f solid;
+    border-radius: 5px;
+    margin: 0 auto;
+    position: relative;
+    bottom: 260px;
+    }
