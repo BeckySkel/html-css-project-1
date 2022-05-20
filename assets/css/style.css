@@ -436,6 +436,7 @@ details[open] {
     position: relative;
     top: 100px;
     left: 300px;
+    text-shadow: 3px 4px #476a6f;
 }
 
 #reviews-inner {
@@ -495,3 +496,35 @@ button:hover {
     left: 3450px;
 }
 
+.top {
+    z-index: 1;
+}
+    
+.middle {
+    z-index: 0;
+}
+    
+.bottom {
+    z-index: -1;
+}
+
+.blank {
+    background: darkgrey !important;
+    color: lightgrey !important;
+}
+
+.two:focus ~ #threeright {
+    z-index: 2;
+}
+    
+.two:focus ~ #oneleft {
+    z-index: 2;
+}
+    
+.three:focus ~ #blankright {
+    z-index: 2;
+}
+    
+.three:focus ~ #twoleft {
+    z-index: 2;
+}
