@@ -528,3 +528,15 @@ button:hover {
 .three:focus ~ #twoleft {
     z-index: 2;
 }
+
+.one:focus ~ #scrolling-reviews-container {
+    left: 2575px;
+} 
+  
+.two:focus ~ #scrolling-reviews-container {
+    left: 1722px;
+}
+  
+.three:focus ~ #scrolling-reviews-container {
+  left: 870px;
+}
