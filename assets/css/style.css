@@ -428,7 +428,6 @@ details[open] {
     position: relative;
     width: 1000vw;
     left: -450vw;
-    /* margin: 0 auto; */
 }
     
 #reviews h2 {
@@ -444,6 +443,31 @@ details[open] {
     top: 100px;
     margin: 0 auto;
     width: 6000px;
-    height: 200px;
-    /* overflow: hidden; */
 }
+
+#scrolling-reviews-container {
+    display: block;
+    background: #fff;
+    position: absolute;
+    left: 2575px;
+  }
+
+.member-review {
+    border: #efe9fa solid 5px;
+    border-radius: 5px;
+    display: inline-block;
+    width: 800px;
+    height: 200px;
+    font-size: 20px;
+    margin: 20px;
+    vertical-align: top;
+}
+
+.member-review h3 {
+    margin: 20px;
+}
+
+.member-review p {
+    margin: 20px;
+}
+
