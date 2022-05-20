@@ -236,7 +236,7 @@ nav {
     text-align: center;
     font-size: 25px;
     position: relative;
-    top: 120px;
+    top: 140px;
 }
 
 .card i {
@@ -302,13 +302,13 @@ nav {
 
 /* Gallery/Peak Inside Gym */
 
-#peak-inside {
+#features {
     background: #efe9fa;
     height: 600px;
     width: 100%;
 }
 
-.peak-caption-outer {
+.features-caption-outer {
     width: 100%;
     height: 300px;
     font-size: 20px;
@@ -316,29 +316,29 @@ nav {
     text-align: center;
 }
 
-.peak-caption-inner {
+.features-caption-inner {
     width: 400px;
     height: 150px;
     padding: 75px;
     margin: 0 auto;
 }
 
-.peak-caption-inner h3 {
+.features-caption-inner h3 {
     text-transform: uppercase;
     margin-bottom: 5px;
 }
 
-.peak-caption-inner p {
+.features-caption-inner p {
     width: 300px;
     margin: 0 auto;
 }
 
-.peak-image {
+.features-image {
     height: 300px;
     width: 100%;
 }
 
-.peak-image img {
+.features-image img {
     height: inherit;
     width: inherit;
     object-fit: cover;
@@ -349,7 +349,8 @@ nav {
 
 #faqs {
     width: 100%;
-    height: 1000px;
+    padding-bottom: 250px;
+    overflow: hidden;
 }
 
 #faqs h2 {
@@ -416,4 +417,33 @@ details[open] {
 
 /* Reviews */
 
+#reviews {
+    width: 100%;
+    overflow: hidden;
+}
+    
+#reviews-outer {
+    height: 600px;
+    background: #ffff00;
+    position: relative;
+    width: 1000vw;
+    left: -450vw;
+    /* margin: 0 auto; */
+}
+    
+#reviews h2 {
+    font-size: 75px;
+    text-align: center;
+    position: relative;
+    top: 100px;
+    left: 300px;
+}
 
+#reviews-inner {
+    position: relative;
+    top: 100px;
+    margin: 0 auto;
+    width: 6000px;
+    height: 200px;
+    /* overflow: hidden; */
+}
