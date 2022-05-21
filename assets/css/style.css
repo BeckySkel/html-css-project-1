@@ -13,6 +13,7 @@ body {
     color: #02040f;
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
+    min-height: 100vh;
 }
 
 .single-centered-large {
@@ -300,7 +301,7 @@ p a:hover {
 }
 
 
-/* Gallery/Peak Inside Gym */
+/* Features/Peek Inside Gym */
 
 #features {
     background: #efe9fa;
@@ -636,3 +637,4 @@ footer a {
     position: relative;
     top: 1px;
 }
+
