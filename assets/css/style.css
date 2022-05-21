@@ -161,7 +161,7 @@ header {
 
 /* Hero image */
 
-#hero-image {
+#home {
     width: 100%;
     height: 80vh;
     overflow: hidden;
@@ -169,7 +169,7 @@ header {
     z-index: 0;
 }
 
-#hero-image img {
+#home img {
     width: 100%;
     height: 80vh;
     object-fit: cover;
@@ -279,7 +279,16 @@ header {
     font-size: 20px;
 }
 
-#about-us a {
+p a {
+    color: #02040f;
+    font-weight: 600;
+}
+
+p a:hover {
+    background: #ffff00;
+}
+
+#about-us .join-button {
     margin: 30px auto 60px;
     font-size: 25px;
     width: 140px;
@@ -287,6 +296,7 @@ header {
     border-radius: 15px;
     display: block;
     text-align: center;
+    /* color: #02040f; */
 }
 
 
@@ -370,6 +380,7 @@ details {
     font-size: 25px;
     margin: 50px auto;
     box-shadow: 5px 5px #476a6f;
+    cursor: pointer;
 }
 
 summary {
@@ -402,6 +413,7 @@ details[open] summary {
 details[open] {
     border-bottom: 3px solid #02040f;
     background: #fff;
+    cursor: default;
 }
 
 
