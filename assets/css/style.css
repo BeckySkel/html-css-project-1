@@ -638,3 +638,30 @@ footer a {
     top: 1px;
 }
 
+
+
+/* Sign Up Page */
+
+#header-opaque {
+    background: #02040f;
+}
+
+#absolute-footer {
+    position: absolute;
+    bottom: 0;
+}
+
+#background-image {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background: #02040f;
+}
+
+#background-image img {
+    width: 100%;
+    object-fit: cover;
+    object-position: 0 -150px;
+    opacity: 0.5;
+}
+
