@@ -647,8 +647,8 @@ footer a {
 }
 
 #absolute-footer {
-    position: absolute;
-    bottom: 0;
+    /* position: absolute;
+    bottom: 0; */
 }
 
 #background-image {
@@ -665,3 +665,22 @@ footer a {
     opacity: 0.5;
 }
 
+#form-outer {
+    width: 80%;
+    height: 400px;
+    /* margin: 0 auto; */
+    background: rgba(2,4,15,0.6);
+    position: absolute;
+    left: 10%;
+    top: 300px;
+
+}
+
+#form-outer h2 {
+    color: #fff;
+    text-align: center;
+    font-size: 100px;
+    text-shadow: 5px 5px #476a6f;
+    position: relative;
+    top: -80px;
+}
