@@ -13,7 +13,6 @@ body {
     color: #02040f;
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
-    height: 300vh;
 }
 
 .single-centered-large {
@@ -47,25 +46,20 @@ body {
 .left-third {
     width: 33%;
     float: left;
-    /* background: yellow;
-    height: 300px; */
 }
 
 .center-third {
     width: 34%;
     margin: 0 auto;
     display: inline-block;
-    /* background: red;
-    height: 300px; */
 }
 
 .right-third {
     width: 33%;
     float: right;
     clear: right;
-    /* background: orange;
-    height: 300px; */
 }
+
 
 /* Header, logo & menu */
 
@@ -80,22 +74,18 @@ header {
     z-index: 3;
 }
 
-nav {
-    /* max-width: 2000px !important; */
-}
-
-#logo {
+.logo {
     display: inline-block;
     font-size: 30px;
     text-transform: lowercase;
 }
 
-#logo a {
+.logo a {
     color: #fff;
     text-decoration: none;
 }
 
-#logo span {
+.logo span {
     text-transform: uppercase;
     color: #ffff00;
     font-weight: 500;
@@ -423,7 +413,7 @@ details[open] {
 }
     
 #reviews-outer {
-    height: 600px;
+    height: 650px;
     background: #ffff00;
     position: relative;
     width: 1000vw;
@@ -548,24 +538,23 @@ button:hover {
     height: inherit;
     margin: 0 auto;
     position: relative;
-    /* border: blue 2px solid; */
-  }
+}
   
-  #block-left {
+#block-left {
     width: 2575px;
     background: #ffff00;
     height: inherit;
     float: left;
-  }
+}
   
-  #block-right {
+#block-right {
     width: 2575px;
     background: #ffff00;
     height: inherit;
     float: right;
-  }
+}
 
-  #border {
+#border {
     height: 240px;
     width: 840px;
     border: 5px #02040f solid;
@@ -573,4 +562,65 @@ button:hover {
     margin: 0 auto;
     position: relative;
     bottom: 260px;
-    }
+}
+
+
+/* Footer */
+
+footer {
+    background: #476a6f;
+    height: 100px;
+    width: 100%;
+    color: #efe9fa;
+    font-size: 15px;
+}
+
+footer .logo {
+    position: relative;
+    top: 15px;
+    opacity: 0.5;
+}
+
+footer a {
+    text-decoration: none;
+} 
+
+#social-media {
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px 0;
+    position: relative;
+    top: 5px;
+    display: inline-block;
+}
+
+#social-media li {
+    list-style-type: none;
+    display: inline;
+    margin: 10px;
+}
+
+#social-media a {
+    color: #efe9fa;
+    font-size: 20px
+}
+
+#footer-right a {
+    float: right;
+    background: #00ffff;
+    color: #02040f;
+    padding: 5px 8px;
+    border-radius: 10px;
+    position: relative;
+    top: 35px;
+}
+
+#footer-right a:hover {
+    background: #00d1cc;
+}
+
+#footer-right i {
+    padding: 2px;
+    position: relative;
+    top: 1px;
+}
