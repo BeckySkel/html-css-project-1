@@ -45,18 +45,19 @@
             <h2>Join GO!gym</h2>
 
             <form action="#thank-you" method="GET">
-                <fieldset>
+                <fieldset id="your-details">
                     <legend>Your details</legend>
 
                     <div class="left-half">
                         <label for="title">Title</label>
-                            <select id="title" name="title">
-                            <option value="Mr">Mr</option>
-                            <option value="Mrs">Mrs</option>
-                            <option value="Ms">Ms</option>
-                            <option value="Miss">Miss</option>
-                            <option value="">Other</option>
-                        </select>
+                        <input list="titles" name="title" id="title">
+
+                        <datalist id="titles">
+                            <option value="Mr">
+                            <option value="Mrs">
+                            <option value="Miss">
+                            <option value="Ms">
+                        </datalist>
 
                         <label for="fname">First name</label>
                         <input type="text" id="fname" name="first-name">
@@ -77,7 +78,7 @@
                     </div>
                 </fieldset>
 
-                <fieldset>
+                <fieldset id="your-membership">
                     <legend>Your membership</legend>
 
                     <label for=""></label>
