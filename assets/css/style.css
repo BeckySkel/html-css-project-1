@@ -673,7 +673,7 @@ footer a {
 }
 
 #form-outer {
-    height: 200vh;
+    /* height: 100vh; */
     background: rgba(2,4,15,0.6);
     position: relative;
     margin: 250px auto 150px;
@@ -702,6 +702,7 @@ form {
     color: #efe9fa;
     position: relative;
     top: -50px;
+    padding-bottom: 50px;
 }
 
 fieldset {
@@ -788,6 +789,40 @@ form a {
     width: 20px;
 }
 
+.membership {
+    width: 80%;
+    background: #fff;
+    margin: 0 auto;
+    color: #02040f;
+}
+
+.membership h3 {
+    width: 400px;
+    text-align: center;
+    background: #fff;
+    margin: 10px auto;
+}
+
+.list-container {
+    width: 400px;
+    background: #fff;
+    margin: 10px auto;
+    color: #02040f;
+    list-style-position: inside;
+    padding-left: 10px;
+}
+
+.membership label {
+    text-align: center;
+}
+
+#premium {
+    background: #ffff00;
+}
+
+#standard {
+    background: #00ffff;
+}
 
 
 
