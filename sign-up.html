@@ -44,6 +44,8 @@
         <div id="form-outer" class="single-centered-medium">
             <h2>Join GO!gym</h2>
 
+            <p>Required fields marked with a <span class="required">*</span></p>
+
             <form action="#thank-you" method="GET">
                 <fieldset id="your-details">
                     <legend>Your details</legend>
@@ -59,30 +61,50 @@
                             <option value="Ms">
                         </datalist>
 
-                        <label for="fname">First name</label>
-                        <input type="text" id="fname" name="first-name">
+                        <label for="fname">First name <span class="required">*</span></label>
+                        <input type="text" id="fname" name="first-name" required>
 
-                        <label for="lname">Last name</label>
-                        <input type="text" id="lname" name="last-name">
+                        <label for="lname">Last name <span class="required">*</span></label>
+                        <input type="text" id="lname" name="last-name" required>
                     </div>
 
                     <div class="right-half">
-                        <label for="dob">Date of birth</label>
-                        <input type="date" id="dob" name="date-of-birth">
+                        <label for="dob">Date of birth <span class="required">*</span></label>
+                        <input type="date" id="dob" name="date-of-birth" required>
 
-                        <label for="phone">Mobile/Phone</label>
-                        <input type="number" id="phone" name="phone-number">
+                        <label for="phone">Mobile/Phone <span class="required">*</span></label>
+                        <input type="number" id="phone" name="phone-number" required>
 
-                        <label for="email">Email</label>
-                        <input type="email" id="email" name="email">
+                        <label for="email">Email <span class="required">*</span></label>
+                        <input type="email" id="email" name="email" required>
                     </div>
                 </fieldset>
 
                 <fieldset id="your-membership">
                     <legend>Your membership</legend>
 
-                    <label for=""></label>
-                    <input type="text">
+                    <div class="left-third">
+                        <label for="pref-location">Preferred Location <span class="required">*</span></label>
+
+                        <select name="pref-location" id="pref-location" required>
+                            <option value="birmingham">Birmingham</option>
+                            <option value="london">London</option>
+                            <option value="oxford">Oxford</option>
+                        </select>
+
+                        <div class="accept-terms">
+                            <label for="accept-terms">I have read and accept the <a href="#">terms & conditions</a> <span class="required">*</span></label>
+                            <input type="checkbox" id="accept-terms" name="accept-terms" value="yes" required>
+                        </div>
+                    </div>
+
+                    <div class="right-third">
+                        
+                    </div>
+
+                    <div class="center-third">
+                        
+                    </div>
 
                 </fieldset>
             </form>

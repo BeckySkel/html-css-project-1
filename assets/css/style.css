@@ -688,8 +688,20 @@ footer a {
     top: -80px;
 }
 
+#form-outer p {
+    width: 85%;
+    margin: 0 auto 10px;
+    color: #efe9fa;
+    font-size: 15px;
+    position: relative;
+    top: -50px;
+}
+
 form {
     font-size: 20px;
+    color: #efe9fa;
+    position: relative;
+    top: -50px;
 }
 
 fieldset {
@@ -701,26 +713,33 @@ fieldset {
 }
 
 fieldset legend {
-    font-size: 30px;
+    font-size: 40px;
     padding-right: 5px;
+}
+
+#your-membership label {
+    padding-left: 10px;
 }
 
 form label {
     margin: 0 auto;
     display: block;
     width: 90%;
-    padding-left: -10px;
+}
+
+.required {
+    color: #da5552;
+    font-weight: bold;
 }
 
 form input {
     width: 90%;
     height: 30px;
     font-size: 20px;
-    margin: 0 auto 20px; 
+    margin: 0 auto 40px; 
     border: 3px solid #efe9fa;
     display: block;
     background: none;
-    border: 3px solid #efe9fa;
     color: #fff;
     padding-left: 10px;
 }
@@ -730,10 +749,49 @@ form input:focus {
     color: #02040f;
 }
 
+form select {
+    width: 90%;
+    height: 40px;
+    font-size: 20px;
+    margin: 0 auto 40px; 
+    border: 3px solid #efe9fa;
+    display: block;
+    background: none;
+    color: #fff;
+}
+
 form select:focus {
     background: #efe9fa;
     color: #02040f;
 }
+
+form a {
+    color: #ffff00;
+}
+
+.accept-terms {
+    width: 90%;
+    margin: 0 auto 40px;
+    padding-left: 10px;
+}
+
+.accept-terms label {
+    display: inline !important;
+    padding: 0 !important;
+
+}
+
+#accept-terms {
+    position: relative;
+    top: 8px;
+    display: inline;
+    width: 20px;
+}
+
+
+
+
+
 
 
 
