@@ -689,4 +689,14 @@ footer a {
     top: -80px;
 }
 
+fieldset {
+    border: 2px #efe9fa solid;
+    border-radius: 5px;
+    color: #fff;
+    width: 85%;
+    margin: 0 auto 50px;
+}
 
+fieldset legend {
+    font-size: 30px;
+}
