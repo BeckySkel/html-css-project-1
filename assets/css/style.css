@@ -893,12 +893,59 @@ fieldset a {
 
 #thank-you-message a {
     color: #00ffff;
+    font-weight: normal;
 }
+
+#thank-you-message a:hover {
+    background: none;
+} 
 
 #absolute-footer {
     position: absolute;
     bottom: 0;
 }
+
+
+/* Locations */
+
+.location-card {
+    width: 400px;
+    height: 500px;
+    background: #efe9fa;
+    color: #476a6f;
+    margin: 0 auto;
+}
+
+.location-map {
+    height: 200px;
+    width: 100%;
+    background: #da5552;
+
+}
+
+.location-card h3 {
+    position: relative;
+    bottom: 35px;
+    font-size: 40px;
+    text-align: center;
+    text-shadow: 3px 3px #00ffff;
+}
+
+.location-card table {
+    font-size: 20px;
+    padding: 10px;
+    position: relative;
+    bottom: 20px;
+}
+
+td {
+    padding: 10px;
+}
+
+/* Contact Page */
+
+
+
 
 
 
