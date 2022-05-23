@@ -650,7 +650,7 @@ footer a {
     position: relative;
 }
 
-#sign-up-form {
+#sign-up-form, #thank-you-message {
     width: 100%;
     overflow: hidden;
 }
@@ -865,6 +865,8 @@ fieldset a {
 }
 
 
+
+/* Thank You Page */
 
 
 
