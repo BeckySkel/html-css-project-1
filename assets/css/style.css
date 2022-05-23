@@ -646,7 +646,7 @@ footer a {
     background: #02040f;
 }
 
-#absolute-footer {
+#relative-footer {
     position: relative;
 }
 
@@ -687,7 +687,7 @@ footer a {
     top: -80px;
 }
 
-#form-outer p {
+#sign-up-form p {
     width: 85%;
     margin: 0 auto 10px;
     color: #efe9fa;
@@ -827,11 +827,11 @@ fieldset a {
     font-weight: bold;
 }
 
-#premium {
+#premium-membership {
     background: #ffff00;
 }
 
-#standard {
+#standard-membership {
     background: #00ffff;
 }
 
@@ -867,6 +867,38 @@ fieldset a {
 
 
 /* Thank You Page */
+
+#thank-you-message {
+    color: #efe9fa;
+}
+
+.what-next {
+    padding-bottom: 50px;
+}
+
+.what-next > * {
+    width: 90%;
+    margin: 0 auto;
+}
+
+#thank-you-message h3 {
+    font-size: 40px;
+}
+
+#thank-you-message p {
+    position: relative;
+    font-size: 20px;
+    padding: 10px 0 50px;
+}
+
+#thank-you-message a {
+    color: #00ffff;
+}
+
+#absolute-footer {
+    position: absolute;
+    bottom: 0;
+}
 
 
 
