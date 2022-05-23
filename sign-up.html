@@ -95,42 +95,51 @@
                         <div class="accept-terms">
                             <label for="accept-terms">I have read and agree to the <a href="#">terms & conditions</a> <span class="required">*</span></label>
                             <input type="checkbox" id="accept-terms" name="accept-terms" value="yes" required>
+
+
                         </div>
                     </div>
 
                     <div class="right-third">
-                        <div id="premium" class="membership">
-                            <h3>Premium</h3>
-
-                            <div class="list-container">
-                                <ul>
-                                    <li>24/7 access to all our gyms</li>
-                                    <li>Unlimited free classes</li>
-                                    <li>Free 1-week trial and induction session</li>
-                                </ul>
-                                <label for="premium">Choose this membership:</label>
-                                <input type="radio" id="premium" name="membership" value="premium">
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="center-third">
                         <div id="standard" class="membership">
                             <h3>Standard</h3>
 
-                            <div class="list-container">
-                                <ul>
-                                    <li>24/7 access to your chosen gym</li>
-                                    <li>1 free class per week</li>
-                                    <li>Free 1-week trial and induction session</li>
-                                </ul>
+                            <div class="membership-info">
+                                <div class="membership-features">
+                                    <ul>
+                                        <li>Free 1-week trial</li>
+                                        <li>24/7 access to your chosen gym</li>
+                                        <li>1 free class per week</li>
+                                    </ul>
+                                </div>
+
                                 <label for="standard">Choose this membership:</label>
                                 <input type="radio" id="standard" name="membership" value="standard">
                             </div>
-                        </div>                        
+                        </div> 
                     </div>
 
+                    <div class="center-third">
+                        <div id="premium" class="membership">
+                            <h3>Premium</h3>
+
+                            <div class="membership-info">
+                                <div class="membership-features">
+                                    <ul>
+                                        <li>Free 1-week trial</li>
+                                        <li>24/7 access to all our gyms</li>
+                                        <li>Unlimited free classes</li>
+                                    </ul>
+                                </div>
+
+                                <label for="premium">Choose this membership:</label>
+                                <input type="radio" id="premium" name="membership" value="premium">
+                            </div>
+                        </div>               
+                    </div>
                 </fieldset>
+
+                <input type="submit" id="submit" value="Submit!">
             </form>
         </div>
     </section>

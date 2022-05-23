@@ -673,7 +673,6 @@ footer a {
 }
 
 #form-outer {
-    /* height: 100vh; */
     background: rgba(2,4,15,0.6);
     position: relative;
     margin: 250px auto 150px;
@@ -702,7 +701,7 @@ form {
     color: #efe9fa;
     position: relative;
     top: -50px;
-    padding-bottom: 50px;
+    padding-bottom: 30px;
 }
 
 fieldset {
@@ -711,6 +710,10 @@ fieldset {
     color: #fff;
     width: 85%;
     margin: 0 auto 50px;
+}
+
+#your-membership {
+    padding-bottom: 50px;
 }
 
 fieldset legend {
@@ -722,7 +725,7 @@ fieldset legend {
     padding-left: 10px;
 }
 
-form label {
+fieldset label {
     margin: 0 auto;
     display: block;
     width: 90%;
@@ -733,7 +736,7 @@ form label {
     font-weight: bold;
 }
 
-form input {
+fieldset input {
     width: 90%;
     height: 30px;
     font-size: 20px;
@@ -745,12 +748,12 @@ form input {
     padding-left: 10px;
 }
 
-form input:focus {
+fieldset input:focus {
     background: #efe9fa;
     color: #02040f;
 }
 
-form select {
+fieldset select {
     width: 90%;
     height: 40px;
     font-size: 20px;
@@ -761,13 +764,13 @@ form select {
     color: #fff;
 }
 
-form select:focus {
+fieldset select:focus {
     background: #efe9fa;
     color: #02040f;
 }
 
-form a {
-    color: #ffff00;
+fieldset a {
+    color: #00ffff;
 }
 
 .accept-terms {
@@ -790,30 +793,38 @@ form a {
 }
 
 .membership {
-    width: 80%;
-    background: #fff;
     margin: 0 auto;
     color: #02040f;
+    width: 350px;
+    height: 305px;
+    padding: 10px;
 }
 
 .membership h3 {
-    width: 400px;
     text-align: center;
-    background: #fff;
-    margin: 10px auto;
+    padding-bottom: 5px; 
 }
 
-.list-container {
-    width: 400px;
+.membership-info {
+    margin: 0 auto;
+    padding: 10px;
+    width: 300px;
+    height: 220px;
     background: #fff;
-    margin: 10px auto;
-    color: #02040f;
-    list-style-position: inside;
-    padding-left: 10px;
+    border: 1px solid #02040f;
+    border-radius: 5px;
+}
+
+.membership-features {
+    width: 200px;
+    margin: 0 auto;
+    height: 170px;
 }
 
 .membership label {
     text-align: center;
+    padding: 10px 0 5px;
+    font-weight: bold;
 }
 
 #premium {
@@ -822,6 +833,35 @@ form a {
 
 #standard {
     background: #00ffff;
+}
+
+#submit {
+    font-size: 30px;
+    font-weight: bold;
+    background: #476a6f;
+    border-radius: 10px;
+    color: #ffff00;
+    padding: 10px 15px;
+    margin: 0 auto;
+    display: block;
+    font-family: 'Poppins', sans-serif;
+    box-shadow: 5px 5px #02040f;
+}
+
+#submit:hover {
+    box-shadow: 3px 3px #02040f;
+    position: relative;
+    left: 2px;
+    top: 2px;
+}
+
+#submit:active {
+    box-shadow: 1px 1px #02040f;
+    position: relative;
+    left: 4px;
+    top: 4px;
+    background: #d1cc00;
+    color: #02040f; 
 }
 
 
