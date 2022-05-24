@@ -8,15 +8,18 @@
     border: none;
 }
 
+/*  */
+
 body {
     width: 100%;
     color: #02040f;
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
-    min-height: 100vh;
 }
 
-.single-centered-large {
+/*  */
+
+/* .single-centered-large {
     width: 95%;
     margin: 0 auto;
     max-width: 2500px;
@@ -59,85 +62,116 @@ body {
     width: 33%;
     float: right;
     clear: right;
-}
+} */
 
 
 /* Header, logo & menu */
 
 header {
-    background: rgba(2,4,15,0.7);
+    background: rgba(2, 4, 15, 0.7);
     position: fixed;
     top: 0;
     width: 100%;
     height: 85px;
     color: #efe9fa;
-    padding-top: 10px;
+    padding-bottom: 10px;
     z-index: 3;
 }
 
+/*  */
+
+#header-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    max-width: 1900px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+/*  */
+
+nav {
+    flex-grow: 2;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 30px 0 0;
+}
+/*  */
+
 .logo {
-    display: inline-block;
     font-size: 30px;
     text-transform: lowercase;
+    padding-left: 30px;
 }
+/*  */
 
 .logo a {
     color: #fff;
     text-decoration: none;
 }
+/*  */
 
 .logo span {
     text-transform: uppercase;
     color: #ffff00;
     font-weight: 500;
 }
+/*  */
 
 
 .menu {
-    display: inline-block;
     list-style-type: none;
-    line-height: 70px;
-    font-size: 15px; 
+    font-size: 15px;
 }
+/*  */
 
 .menu li {
     display: inline;
 }
+/*  */
 
 .menu a {
     text-decoration: none;
-    color: #efe9fa;
-    margin: 0 5px;
+    /* margin: 0 5px; */
 }
+/*  */
 
-#menu-left {
-    margin-left: 10px;
+#menu-left li {
+    border-left: solid 3px #efe9fa;
+    padding: 0 9px;
 }
+/*  */
+
+#menu-left li:first-child {
+    border: none;
+    padding-left: 20px;
+}
+/*  */
 
 #menu-left a {
     color: #efe9fa;
 }
+/*  */
 
 #menu-left a:hover {
     text-decoration: underline;
 }
-
-#menu-right {
-    float: right;
-    position: relative;
-    top: 5px;
-}
+/*  */
 
 #menu-right a {
     background: #00ffff;
     color: #02040f;
     padding: 5px 8px;
     border-radius: 10px;
+    margin: 0 5px;
 }
+/*  */
 
 #menu-right a:hover {
     background: #00d1cc;
 }
+/*  */
 
 .join-button {
     background: #ffff00 !important;
@@ -146,10 +180,12 @@ header {
     border-radius: 10px;
     text-decoration: none;
 }
+/*  */
 
 .join-button:hover {
     background: #d1cc00 !important;
 }
+/*  */
 
 #header-backing {
     position: sticky;
@@ -158,6 +194,11 @@ header {
     background: #02040f;
     z-index: 1;
 }
+
+#header-opaque {
+    background: #02040f;
+}
+/*  */
 
 
 /* Hero image */
@@ -179,7 +220,7 @@ header {
 }
 
 #fade-over-image {
-    background: linear-gradient(rgba(0,0,0,0), #02040f);
+    background: linear-gradient(rgba(0, 0, 0, 0), #02040f);
     width: 100%;
     height: 40vh;
     position: absolute;
@@ -424,7 +465,7 @@ details[open] {
     width: 100%;
     overflow: hidden;
 }
-    
+
 #reviews-outer {
     height: 650px;
     background: #ffff00;
@@ -432,7 +473,7 @@ details[open] {
     width: 1000vw;
     left: -450vw;
 }
-    
+
 #reviews h2 {
     font-size: 75px;
     text-align: center;
@@ -456,7 +497,7 @@ details[open] {
     position: absolute;
     left: 2575px;
     transition: all 0.5s;
-  }
+}
 
 .member-review {
     border: #efe9fa solid 5px;
@@ -496,7 +537,7 @@ button:hover {
 .left {
     left: 2500px;
 }
-    
+
 .right {
     left: 3450px;
 }
@@ -504,11 +545,11 @@ button:hover {
 .top {
     z-index: 1;
 }
-    
+
 .middle {
     z-index: 0;
 }
-    
+
 .bottom {
     z-index: -1;
 }
@@ -518,32 +559,32 @@ button:hover {
     color: lightgrey !important;
 }
 
-.two:focus ~ #threeright {
-    z-index: 2;
-}
-    
-.two:focus ~ #oneleft {
-    z-index: 2;
-}
-    
-.three:focus ~ #blankright {
-    z-index: 2;
-}
-    
-.three:focus ~ #twoleft {
+.two:focus~#threeright {
     z-index: 2;
 }
 
-.one:focus ~ #scrolling-reviews-container {
+.two:focus~#oneleft {
+    z-index: 2;
+}
+
+.three:focus~#blankright {
+    z-index: 2;
+}
+
+.three:focus~#twoleft {
+    z-index: 2;
+}
+
+.one:focus~#scrolling-reviews-container {
     left: 2575px;
-} 
-  
-.two:focus ~ #scrolling-reviews-container {
+}
+
+.two:focus~#scrolling-reviews-container {
     left: 1722px;
 }
-  
-.three:focus ~ #scrolling-reviews-container {
-  left: 870px;
+
+.three:focus~#scrolling-reviews-container {
+    left: 870px;
 }
 
 #block-window {
@@ -552,14 +593,14 @@ button:hover {
     margin: 0 auto;
     position: relative;
 }
-  
+
 #block-left {
     width: 2575px;
     background: #ffff00;
     height: inherit;
     float: left;
 }
-  
+
 #block-right {
     width: 2575px;
     background: #ffff00;
@@ -596,7 +637,7 @@ footer .logo {
 
 footer a {
     text-decoration: none;
-} 
+}
 
 #social-media {
     text-align: center;
@@ -642,15 +683,14 @@ footer a {
 
 /* Sign Up Page */
 
-#header-opaque {
-    background: #02040f;
-}
+
 
 #relative-footer {
     position: relative;
 }
 
-#sign-up-form, #thank-you-message {
+#sign-up-form,
+#thank-you-message {
     width: 100%;
     overflow: hidden;
 }
@@ -673,7 +713,7 @@ footer a {
 }
 
 #form-outer {
-    background: rgba(2,4,15,0.6);
+    background: rgba(2, 4, 15, 0.6);
     position: relative;
     margin: 250px auto 150px;
 }
@@ -740,7 +780,7 @@ fieldset input {
     width: 90%;
     height: 30px;
     font-size: 20px;
-    margin: 0 auto 40px; 
+    margin: 0 auto 40px;
     border: 3px solid #efe9fa;
     display: block;
     background: none;
@@ -757,7 +797,7 @@ fieldset select {
     width: 90%;
     height: 40px;
     font-size: 20px;
-    margin: 0 auto 40px; 
+    margin: 0 auto 40px;
     border: 3px solid #efe9fa;
     display: block;
     background: none;
@@ -802,7 +842,7 @@ fieldset a {
 
 .membership h3 {
     text-align: center;
-    padding-bottom: 5px; 
+    padding-bottom: 5px;
 }
 
 .membership-info {
@@ -861,7 +901,7 @@ fieldset a {
     left: 4px;
     top: 4px;
     background: #d1cc00;
-    color: #02040f; 
+    color: #02040f;
 }
 
 
@@ -876,7 +916,7 @@ fieldset a {
     padding-bottom: 50px;
 }
 
-.what-next > * {
+.what-next>* {
     width: 90%;
     margin: 0 auto;
 }
@@ -898,7 +938,7 @@ fieldset a {
 
 #thank-you-message a:hover {
     background: none;
-} 
+}
 
 #absolute-footer {
     position: absolute;
@@ -943,13 +983,3 @@ td {
 }
 
 /* Contact Page */
-
-
-
-
-
-
-
-
-
-
