@@ -210,14 +210,15 @@ nav {
     background: #02040f;
     z-index: 0;
 }
+/*  */
 
 #home img {
     width: 100%;
     height: 80vh;
     object-fit: cover;
     object-position: 10% 35%;
-
 }
+/*  */
 
 #fade-over-image {
     background: linear-gradient(rgba(0, 0, 0, 0), #02040f);
@@ -228,14 +229,7 @@ nav {
     left: 0;
     z-index: 2;
 }
-
-/* Key points */
-
-#key-points {
-    height: 600px;
-    width: 100%;
-    background: #00ffff;
-}
+/*  */
 
 #slogan {
     color: #efe9fa;
@@ -243,12 +237,17 @@ nav {
     font-style: italic;
     position: relative;
     top: 36vh;
+    padding-left: 30px;
+    max-width: 2500px;
+    margin: 0 auto;
 }
+/*  */
 
 #slogan h2 {
     opacity: 0.5;
     font-size: 100px;
 }
+/*  */
 
 #slogan h3 {
     line-height: 0;
@@ -256,6 +255,25 @@ nav {
     bottom: 10px;
     font-size: 100px;
     padding-left: 30px;
+}
+/*  */
+
+/* Key points */
+
+#key-points {
+    /* height: 600px; */
+    width: 100%;
+    background: #00ffff;
+    padding-bottom: 200px;
+}
+
+#key-points-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    max-width: 1500px;
+    margin: 0 auto;
+    flex-wrap: wrap;
 }
 
 .card {
@@ -268,25 +286,14 @@ nav {
     text-align: center;
     font-size: 25px;
     position: relative;
-    top: 140px;
+    top: 100px;
+  margin: 40px;
 }
 
 .card i {
     padding: 40px;
     font-size: 75px;
     color: #ffff00;
-}
-
-#left-card {
-    float: right;
-}
-
-#center-card {
-    margin: 0 auto;
-}
-
-#right-card {
-    float: left;
 }
 
 
