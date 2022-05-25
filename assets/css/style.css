@@ -447,9 +447,14 @@ p a:hover {
     font-size: 65px;
 }
 
-#faqs .single-centered-medium {
+#faqs-container {
     position: relative;
     top: 150px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  max-width: 1500px;
+  margin: 0 auto;
 }
 
 details {
@@ -460,7 +465,7 @@ details {
     border-radius: 5px;
     width: 700px;
     font-size: 25px;
-    margin: 50px auto;
+    margin: 30px auto;
     box-shadow: 5px 5px #476a6f;
     cursor: pointer;
 }
