@@ -573,6 +573,7 @@ button {
     border: 3px #02040f solid;
     border-radius: 50%;
     z-index: 3;
+    box-shadow: 3px 3px #d1cc00;
 }
 
 button:hover {
@@ -661,6 +662,24 @@ button:hover {
     margin: 0 auto;
     position: relative;
     bottom: 260px;
+    box-shadow: 5px 5px #d1cc00;
+}
+
+.quote-icon {
+    font-size: 40px;
+    text-shadow: 3px 3px #efe9fa;
+}
+
+#left-quote {
+    position: absolute;
+    left: 10px;
+    top: 5px;
+}
+
+#right-quote {
+    position: absolute;
+    right: 10px;
+    bottom: 5px;
 }
 
 
