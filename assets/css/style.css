@@ -792,41 +792,44 @@ footer a {
 
 #background-image {
     width: 100%;
-      height: 100vh;
-      overflow: hidden;
-      background: #476a6f;
-      position: fixed;
-  }
-  
-  #background-image img {
-      min-height: 110vh;
+    height: 100vh;
+    overflow: hidden;
+    background: #476a6f;
+    position: fixed;
+}
+
+#background-image img {
+    min-height: 110vh;
     width: 100%;
-      object-fit: cover;
-      filter: brightness(50%);
-  }
-  
-  #faded-container {
-      background: rgba(2, 4, 15, 0.6);
-      position: relative;
-      margin: 250px auto 150px;
+    object-fit: cover;
+    filter: brightness(50%);
+}
+
+#faded-container {
+    background: rgba(2, 4, 15, 0.6);
+    position: relative;
+    margin: 250px auto 150px;
     width: 80%;
     max-width: 2000px;
-  }
-  
-  #faded-container h2 {
-      color: #efe9fa;
-      text-align: center;
-      font-size: 100px;
-      text-shadow: 5px 5px #476a6f;
-      position: relative;
-      top: -80px;
-  }
+}
+
+#faded-container h2 {
+    color: #efe9fa;
+    text-align: center;
+    font-size: 100px;
+    text-shadow: 5px 5px #476a6f;
+    position: relative;
+    top: -80px;
+}
 
 
 /* Sign Up Page */
 
 
-#sign-up, #thank-you-message {
+#sign-up,
+#thank-you-message,
+#locations,
+#contact {
     overflow: hidden;
 }
 
@@ -865,20 +868,16 @@ footer a {
     font-weight: bold;
 }
 
-
-
-
-
 #your-details {
-  display: flex;
-  flex-flow: row wrap;
-  
+    display: flex;
+    flex-flow: row wrap;
+
 }
 
 .form-half {
-  display: flex;
-  flex-direction: column;
-  flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
 }
 
 #sign-up-form fieldset input {
@@ -897,21 +896,21 @@ footer a {
 }
 
 #your-details label {
-  padding-left: 15px;
+    padding-left: 15px;
 }
 
 #your-membership {
     padding-bottom: 50px;
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-between;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
 }
 
 .form-third {
-  display: flex;
-  flex-direction: column;
-  flex-grow: 1;
-  padding: 0 15px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    padding: 0 15px;
 }
 
 #sign-up-form select {
@@ -933,8 +932,8 @@ footer a {
 }
 
 #ts-and-cs {
-  width: 370px;
-} 
+    width: 370px;
+}
 
 #accept-terms {
     position: relative;
@@ -978,7 +977,7 @@ footer a {
     text-align: center;
     padding: 10px 0 5px;
     font-weight: bold;
-  display: block;
+    display: block;
 }
 
 .membership input {
@@ -1066,19 +1065,25 @@ footer a {
 
 /* Locations */
 
+#locations-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin: 0 20px;
+    padding-bottom: 100px;
+}
+
 .location-card {
     width: 400px;
     height: 500px;
     background: #efe9fa;
     color: #476a6f;
-    margin: 0 auto;
+    margin: 0 20px;
 }
 
 .location-map {
     height: 200px;
     width: 100%;
-    background: #da5552;
-
 }
 
 .location-card h3 {
