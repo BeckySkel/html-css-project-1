@@ -782,54 +782,55 @@ footer a {
     font-size: 20px
 }
 
+#relative-footer {
+    position: relative;
+}
+
+
+
+/* Supporting Pages */
+
+#background-image {
+    width: 100%;
+      height: 100vh;
+      overflow: hidden;
+      background: #476a6f;
+      position: fixed;
+  }
+  
+  #background-image img {
+      min-height: 110vh;
+    width: 100%;
+      object-fit: cover;
+      filter: brightness(50%);
+  }
+  
+  #faded-container {
+      background: rgba(2, 4, 15, 0.6);
+      position: relative;
+      margin: 250px auto 150px;
+    width: 80%;
+    max-width: 2000px;
+  }
+  
+  #faded-container h2 {
+      color: #efe9fa;
+      text-align: center;
+      font-size: 100px;
+      text-shadow: 5px 5px #476a6f;
+      position: relative;
+      top: -80px;
+  }
 
 
 /* Sign Up Page */
 
 
-#relative-footer {
-    position: relative;
-}
-
-#sign-up-form,
-#thank-you-message {
-    width: 100%;
+#sign-up, #thank-you-message {
     overflow: hidden;
 }
 
-#background-image {
-    width: 100%;
-    height: 100vh;
-    overflow: hidden;
-    background: #476a6f;
-    position: fixed;
-}
-
-#background-image img {
-    width: 100%;
-    /* min-width: 2000px; */
-    min-height: 110vh;
-    object-fit: cover;
-    object-position: 0 -150px;
-    filter: brightness(50%)
-}
-
-#form-outer {
-    background: rgba(2, 4, 15, 0.6);
-    position: relative;
-    margin: 250px auto 150px;
-}
-
-#form-outer h2 {
-    color: #fff;
-    text-align: center;
-    font-size: 100px;
-    text-shadow: 5px 5px #476a6f;
-    position: relative;
-    top: -80px;
-}
-
-#sign-up-form p {
+#sign-up p {
     width: 85%;
     margin: 0 auto 10px;
     color: #efe9fa;
@@ -838,7 +839,7 @@ footer a {
     top: -50px;
 }
 
-form {
+#sign-up-form {
     font-size: 20px;
     color: #efe9fa;
     position: relative;
@@ -846,31 +847,17 @@ form {
     padding-bottom: 30px;
 }
 
-fieldset {
+#sign-up-form fieldset {
     border: 3px #efe9fa solid;
     border-radius: 5px;
-    color: #fff;
+    color: #efe9fa;
     width: 85%;
     margin: 0 auto 50px;
 }
 
-#your-membership {
-    padding-bottom: 50px;
-}
-
-fieldset legend {
+#sign-up-form legend {
     font-size: 40px;
     padding-right: 5px;
-}
-
-#your-membership label {
-    padding-left: 10px;
-}
-
-fieldset label {
-    margin: 0 auto;
-    display: block;
-    width: 90%;
 }
 
 .required {
@@ -878,68 +865,92 @@ fieldset label {
     font-weight: bold;
 }
 
-fieldset input {
-    width: 90%;
+
+
+
+
+#your-details {
+  display: flex;
+  flex-flow: row wrap;
+  
+}
+
+.form-half {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+#sign-up-form fieldset input {
     height: 30px;
     font-size: 20px;
-    margin: 0 auto 40px;
+    margin: 0 15px 40px;
     border: 3px solid #efe9fa;
-    display: block;
     background: none;
-    color: #fff;
+    color: #efe9fa;
     padding-left: 10px;
 }
 
-fieldset input:focus {
+#sign-up-form fieldset input:focus {
     background: #efe9fa;
     color: #02040f;
 }
 
-fieldset select {
-    width: 90%;
+#your-details label {
+  padding-left: 15px;
+}
+
+#your-membership {
+    padding-bottom: 50px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.form-third {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  padding: 0 15px;
+}
+
+#sign-up-form select {
     height: 40px;
     font-size: 20px;
-    margin: 0 auto 40px;
+    margin: 0 0 40px;
     border: 3px solid #efe9fa;
-    display: block;
     background: none;
-    color: #fff;
+    color: #efe9fa;
 }
 
-fieldset select:focus {
+#sign-up-form select:focus {
     background: #efe9fa;
     color: #02040f;
 }
 
-fieldset a {
+#sign-up-form a {
     color: #00ffff;
 }
 
-.accept-terms {
-    width: 90%;
-    margin: 0 auto 40px;
-    padding-left: 10px;
-}
-
-.accept-terms label {
-    display: inline !important;
-    padding: 0 !important;
-
-}
+#ts-and-cs {
+  width: 370px;
+} 
 
 #accept-terms {
     position: relative;
     top: 8px;
-    display: inline;
     width: 20px;
 }
+
+
 
 .membership {
     margin: 0 auto;
     color: #02040f;
     width: 350px;
-    height: 305px;
+    height: 350px;
     padding: 10px;
+
 }
 
 .membership h3 {
@@ -951,22 +962,27 @@ fieldset a {
     margin: 0 auto;
     padding: 10px;
     width: 300px;
-    height: 220px;
+    height: 250px;
     background: #fff;
     border: 1px solid #02040f;
     border-radius: 5px;
 }
 
 .membership-features {
-    width: 200px;
-    margin: 0 auto;
-    height: 170px;
+    width: 220px;
+    margin-left: 55px;
+    height: 200px;
 }
 
-.membership label {
+.membership-info label {
     text-align: center;
     padding: 10px 0 5px;
     font-weight: bold;
+  display: block;
+}
+
+.membership input {
+    width: 90%;
 }
 
 #premium-membership {

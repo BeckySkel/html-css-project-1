@@ -39,12 +39,12 @@
     </header>
 
     
-    <section id="sign-up-form">
+    <section id="sign-up">
         <div id="background-image">
             <img src="assets/images/two-dumbells.jpg" alt="">
         </div>
 
-        <div id="form-outer" class="single-centered-medium">
+        <div id="faded-container">
             <h2>Join GO!gym</h2>
 
             <p>Required fields marked with a <span class="required">*</span></p>
@@ -53,7 +53,7 @@
                 <fieldset id="your-details">
                     <legend>Your details</legend>
 
-                    <div class="left-half">
+                    <div class="form-half">
                         <label for="title">Title</label>
                         <input list="titles" name="title" id="title">
 
@@ -71,7 +71,7 @@
                         <input type="text" id="lname" name="last-name" required>
                     </div>
 
-                    <div class="right-half">
+                    <div class="form-half">
                         <label for="dob">Date of birth <span class="required">*</span></label>
                         <input type="date" id="dob" name="date-of-birth" required>
 
@@ -86,7 +86,7 @@
                 <fieldset id="your-membership">
                     <legend>Your membership</legend>
 
-                    <div class="left-third">
+                    <div class="form-third left">
                         <label for="pref-location">Preferred Location <span class="required">*</span></label>
 
                         <select name="pref-location" id="pref-location" required>
@@ -95,16 +95,39 @@
                             <option value="oxford">Oxford</option>
                         </select>
 
-                        <div class="accept-terms">
+                        <div id="ts-and-cs">
                             <label for="accept-terms">I have read and agree to the <a href="assets/documents/GO!gym-ts-and-cs.pdf" target="_blank">terms & conditions</a> <span class="required">*</span></label>
                             <input type="checkbox" id="accept-terms" name="accept-terms" value="yes" required>
+                        </div>
 
+                        
+                    </div>
 
+                  
+                    <div class="form-third membership-options">
+                        <div id="premium-membership" class="membership">
+                            <h3>Premium</h3>
+
+                            <div class="membership-info">
+                                <div class="membership-features">
+                                    <ul>
+                                        <li>Free 1-week trial</li>
+                                        <li>24/7 access to all our gyms</li>
+                                        <li>Unlimited free classes</li>
+                                        <li>£24.99/month</li>
+                                    </ul>
+                                </div>
+
+                                <label for="premium">Choose this membership:</label>
+                                <input type="radio" id="premium" name="membership" value="premium">
+                            </div>
                         </div>
                     </div>
 
-                    <div class="right-third">
-                        <div id="standard-membership" class="membership">
+                    <div class="form-third membership-options">
+                         
+
+                      <div id="standard-membership" class="membership">
                             <h3>Standard</h3>
 
                             <div class="membership-info">
@@ -123,25 +146,7 @@
                         </div> 
                     </div>
 
-                    <div class="center-third">
-                        <div id="premium-membership" class="membership">
-                            <h3>Premium</h3>
-
-                            <div class="membership-info">
-                                <div class="membership-features">
-                                    <ul>
-                                        <li>Free 1-week trial</li>
-                                        <li>24/7 access to all our gyms</li>
-                                        <li>Unlimited free classes</li>
-                                        <li>£24.99/month</li>
-                                    </ul>
-                                </div>
-
-                                <label for="premium">Choose this membership:</label>
-                                <input type="radio" id="premium" name="membership" value="premium">
-                            </div>
-                        </div>               
-                    </div>
+                
                 </fieldset>
 
                 <input type="submit" id="submit" value="Submit!">
