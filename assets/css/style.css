@@ -1417,6 +1417,10 @@ footer a {
         top: 60px;
     }
 
+    #faqs h2 i {
+        font-size: 40px;
+    }
+
     #faqs-container {
         top: 100px;
     }
@@ -1576,6 +1580,7 @@ footer a {
 
     #home img {
         height: 60vh;
+        object-position: 50% -50px;
     }
 
     #fade-over-image {
@@ -1637,6 +1642,10 @@ footer a {
     .features-caption-inner {
         padding: 60px 0 40px;
         height: 100px;
+    }
+    
+    #faqs h2 i {
+        font-size: 20px;
     }
 
     details {
@@ -1728,6 +1737,51 @@ footer a {
 }
 
 /* For screens  */
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 525px) {
+    header {
+        height: 75px;
+    }
 
+    nav {
+        padding-top: 0px;
+        padding-left: 10px;
+    }
+
+    .menu {
+        bottom: 5px;
+    }
+
+    #home img {
+        object-position: 50% -20px;
+    }
+
+    #header-backing {
+        height: 75px;
+    }
+
+    #slogan {
+        top: 13vh;
+    }
+
+    #social-media {
+        padding-top: 10px;
+    }
+
+    #social-media p {
+        display: none;
+    }
+
+    #social-media i {
+        font-size: 1.5rem;
+    }
+
+    #reviews {
+        height: 350px;
+    }
+
+    .member-review {
+        width: 300px;
+        height: 220px;
+        margin: 20px auto;
+    }
 }
