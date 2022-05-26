@@ -891,7 +891,8 @@ footer a {
 #your-membership {
     padding-bottom: 50px;
     display: flex;
-    flex-flow: row wrap;
+    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
@@ -929,8 +930,6 @@ footer a {
     top: 8px;
     width: 20px;
 }
-
-
 
 .membership {
     margin: 0 auto;
@@ -1228,6 +1227,18 @@ footer a {
 /* Media Queries */
 
 /* For screens  */
+@media screen and (max-width: 1765px) {
+    #ts-and-cs {
+        width: 850px;
+    }
+
+    .membership-options {
+        margin: 10px 0;
+    }
+}
+
+
+/* For screens  */
 @media screen and (max-width: 1300px) { 
     .logo {
         font-size: 2.25rem;
@@ -1255,6 +1266,14 @@ footer a {
 
     #faqs h2 i {
         font-size: 50px;
+    }
+
+    .faded-container h2 {
+        top: -60px;
+    }
+
+    #ts-and-cs {
+        width: 500px;
     }
 }
 
@@ -1442,6 +1461,14 @@ footer a {
         font-size: 3.5rem !important;
         padding-top: 5px;
     }
+
+    .faded-container h2 {
+        top: -50px;
+    }
+
+    #sign-up p {
+        margin: 10px auto;
+    }
 }
 
 /* For screens  */
@@ -1481,6 +1508,35 @@ footer a {
 
     .image-over-caption {
         flex-direction: row-reverse;
+    }
+
+    #sign-up-form legend {
+        font-size: 20px;
+        padding-right: 5px;
+    }
+
+    #sign-up-form {
+        font-size: 13px;
+    }
+
+    .membership {
+        width: 200px;
+        height: 250px;
+    }
+
+    .membership-info {
+        width: 150px;
+        height: 170px;
+    }
+
+    .membership-features {
+        width: 140px;
+        height: 120px;
+        margin-left: 15px;
+    }
+
+    .membership input {
+        width: 80%;
     }
 }
 
@@ -1548,6 +1604,15 @@ footer a {
 
     footer .logo h2 {
         font-size: 3rem !important;
+    }
+
+    .faded-container {
+        margin: 150px auto 50px;
+        width: 90%;
+    }
+
+    #sign-up-form {
+        padding-bottom: 0;
     }
 }
 
@@ -1737,8 +1802,28 @@ footer a {
     #page-content {
         min-height: calc(100vh - 50px);
     }
-    
+
+    .faded-container h2 {
+        top: -25px;
+    }
+
+    #sign-up p {
+        margin: 30px auto 10px;
+    }
+
+    .faded-container {
+        margin: 100px auto 50px;
+    }
+
+    #ts-and-cs {
+        width: 250px;
+    }
+
+    #submit {
+        font-size: 15px;
+    }
 }
+
 
 /* For screens  */
 @media screen and (max-width: 525px) {
@@ -1873,4 +1958,9 @@ footer a {
     #back-to-top p {
         display: none;
     }
+
+    .faded-container {
+        width: 100%;
+    }
+
 }
