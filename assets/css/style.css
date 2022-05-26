@@ -1763,16 +1763,12 @@ footer a {
         top: 13vh;
     }
 
-    #social-media {
-        padding-top: 10px;
+    .caption-over-image {
+        flex-direction: column;
     }
-
-    #social-media p {
-        display: none;
-    }
-
-    #social-media i {
-        font-size: 1.5rem;
+    
+    .image-over-caption {
+        flex-direction: column;
     }
 
     #reviews {
@@ -1783,5 +1779,17 @@ footer a {
         width: 300px;
         height: 220px;
         margin: 20px auto;
+    }
+
+    #social-media {
+        padding-top: 10px;
+    }
+
+    #social-media p {
+        display: none;
+    }
+
+    #social-media i {
+        font-size: 1.5rem;
     }
 }
