@@ -761,7 +761,7 @@ footer a {
 
 #social-media a {
     color: #efe9fa;
-    font-size: 20px
+    font-size: 20px;
 }
 
 #fixed-footer {
@@ -1346,18 +1346,23 @@ footer a {
 
     #home {
         height: 60vh;
+
     }
 
     #fade-over-image {
-        height: 30vh;
+        height: 20vh;
         bottom: 40vh;
     }
     
     #slogan {
-        top: 33vh;
+        top: 22vh;
     }
     
     #slogan h2, #slogan h3 {
+        font-size: 50px;
+    }
+
+    h2  {
         font-size: 50px;
     }
 
@@ -1376,13 +1381,42 @@ footer a {
         font-size: 60px;
     }
 
+    #about-us h2 {
+        bottom: 45px;
+    }
+
+    #about-us-container {
+        bottom: 30px;
+    }
+
+    #about-us img {
+        height: 300px;
+        width: 300px;
+    }
+
+    #about-us .join-button {
+        font-size: 20px;
+        width: 100px;
+    }
+
     .features-caption-outer {
-        font-size: 17px;
-        
+        font-size: 17px; 
     }
 
     .features-caption-inner {
         padding: 85px 0 65px;
+    }
+
+    #faqs {
+        padding-bottom: 175px;
+    }
+
+    #faqs h2 {
+        top: 60px;
+    }
+
+    #faqs-container {
+        top: 100px;
     }
 
     details {
@@ -1398,5 +1432,102 @@ footer a {
         font-size: 3.5rem !important;
         padding-top: 5px;
     }
+}
+
+/* For screens  */
+@media screen and (max-width: 840px) {
+    .card {
+        width: 150px;
+        height: 150px;
+    }
+
+    .card i {
+        font-size: 45px;
+        padding: 15px;
+    }
+
+    #about-us-container {
+        flex-direction: column;
+    }
+
+    #about-us-container img {
+        margin: 20px 0 30px;
+        width: 320px;
+        height: 280px;
+        object-position: 0 -55px;
+    }
+
+    #features-container {
+        flex-direction: column;
+    }
+
+    .caption-over-image {
+        flex-direction: row;
+    }
+
+    .image-over-caption {
+        flex-direction: row-reverse;
+    }
+}
+
+/* For screens  */
+@media screen and (max-width: 730px) {
+    header {
+        padding-bottom: 0 ;
+    }
+
+    #header-container {
+        padding-top: 0;
+    }
+
+    .logo {
+        font-size: 1.5rem;
+        padding-top: 15px;
+    }
+
+    #header-backing {
+        height: 85px;
+    }
+
+    .features-image {
+        height: 200px;
+    }
+
+    .features-caption-outer {
+        height: 200px;
+    }
+
+    .features-caption-inner {
+        height: 150px;
+        padding: 40px 0 10px;
+    }
+
+    .left {
+        left: 2690px;
+    }
+
+    .right {
+        left: 3260px;
+    }
+    
+    footer {
+        font-size: 1rem;
+        height: 70px;
+    }
+
+    #footer-container {
+        position: relative;
+        bottom: 10px;
+    }
+
+    footer .logo {
+        top: 0;
+    }
+
+    footer .logo h2 {
+        font-size: 3rem !important;
+    }
+
+
 }
 
