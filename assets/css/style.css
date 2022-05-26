@@ -801,7 +801,6 @@ footer a {
   .faded-container h2 {
       color: #efe9fa;
       text-align: center;
-      font-size: 100px;
       text-shadow: 5px 5px #476a6f;
       position: relative;
       top: -80px;
@@ -1509,6 +1508,14 @@ footer a {
         padding: 40px 0 10px;
     }
 
+    #reviews-outer {
+        height: 450px;
+    }
+
+    #reviews h2, #reviews-inner {
+        top: 30px;
+    }
+
     .left {
         left: 2690px;
     }
@@ -1577,7 +1584,7 @@ footer a {
     }
     
     #slogan {
-        top: 14vh;
+        top: 10vh;
         text-shadow: 3px 3px #02040f;
     }
 
@@ -1587,6 +1594,10 @@ footer a {
 
     #slogan h3 {
         bottom: 4px;
+    }
+
+    #header-backing {
+        height: 50px;
     }
     
     #key-points-container {
@@ -1619,23 +1630,104 @@ footer a {
         font-size: 13px;
     }
 
+    .features-caption-outer {
+        font-size: 13px;
+    }
+
+    .features-caption-inner {
+        padding: 60px 0 40px;
+        height: 100px;
+    }
+
     details {
         margin: 15px;
         width: 400px;
+        font-size: 13px;
+    }
+
+    summary {
+        font-size: 15px;
+    }
+
+    #reviews {
+        height: 290px;
+        overflow-y: scroll;
+        background: #ffff00;
+        width: 100vw;
+    }
+
+    #reviews-outer {
+        position: relative;
+        width: 100vw;
+        left: 0;
+    }
+
+    #reviews-inner {
+        width: 460px;
+        margin: auto;
     }
 
     #reviews h2 {
         text-shadow: none;
     }
 
-    #reviews-outer {
-        height: 450px;
+    .member-review {
+        font-size: 13px;
+        width: 450px;
+        height: 150px;
+        background: #fff;
+        margin: 20px 0;
     }
 
-    #reviews h2, #reviews-inner {
-        top: 30px;
+    .member-review h3 {
+        margin: 15px 20px 0px;
     }
+
+    #block-window {
+        display: none;
+    }
+
+    #border {
+        display: none;
+    }
+
+    button {
+        display: none;
+    }
+
+    #scrolling-reviews-container {
+        display: flex;
+        flex-direction: column;
+        background: none;
+        left: 0;
+        position: static;
+    }
+
+    footer {
+        height: 50px;
+    }
+
+    #social-media {
+        padding: 0;
+        top: 15px;
+    }
+
+    #back-to-top {
+        position: relative;
+     top: -10px;
+    }
+
+    footer .logo h2 {
+        font-size: 2rem !important;
+    }
+
+    #page-content {
+        min-height: calc(100vh - 50px);
+    }
+    
 }
 
 /* For screens  */
 @media screen and (max-width: 500px) {
+
+}
