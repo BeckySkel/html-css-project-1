@@ -436,6 +436,7 @@ p a:hover {
     top: 150px;
     display: flex;
     flex-wrap: wrap;
+    align-items: flex-start;
     justify-content: space-around;
     max-width: 1500px;
     margin: 0 auto;
