@@ -1346,7 +1346,10 @@ footer a {
 
     #home {
         height: 60vh;
+    }
 
+    #home img {
+        height: 70vh;
     }
 
     #fade-over-image {
@@ -1457,6 +1460,10 @@ footer a {
         object-position: 0 -55px;
     }
 
+    #about-us p {
+        margin: 0;
+    }
+
     #features-container {
         flex-direction: column;
     }
@@ -1527,7 +1534,108 @@ footer a {
     footer .logo h2 {
         font-size: 3rem !important;
     }
-
-
 }
 
+/* For screens  */
+@media screen and (max-width: 690px) {   
+    header {
+        height: 50px;
+    }
+
+    .logo {
+        font-size: 1rem;
+        position: relative;
+        bottom: 10px;
+    }
+
+    .menu {
+        font-size: 1rem;
+        position: relative;
+        bottom: 22px;
+    }
+
+    #menu-right a {
+        padding: 2px 5px;
+        border-radius: 6px;
+    }
+    
+    h2 {
+        font-size: 30px;
+    }    
+    
+    #home {
+        height: 40vh;
+    }
+
+    #home img {
+        height: 60vh;
+    }
+
+    #fade-over-image {
+        height: 10vh;
+        bottom: 60vh;
+    }
+    
+    #slogan {
+        top: 14vh;
+        text-shadow: 3px 3px #02040f;
+    }
+
+    #slogan h2, #slogan h3 {
+        font-size: 30px;
+    }
+
+    #slogan h3 {
+        bottom: 4px;
+    }
+    
+    #key-points-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 200px;
+        height: 100px;
+        margin: 10px;
+    }
+
+    .card i {
+        padding: 5px;
+    }
+
+    #about-us h2 {
+        text-shadow: 3px 3px #efe9fa;
+        bottom: 25px;
+    }
+
+    #about-us img {
+        height: 150px;
+        width: 150px;
+        object-position: 0 -25px;
+    }
+
+    #about-us p {
+        font-size: 13px;
+    }
+
+    details {
+        margin: 15px;
+        width: 400px;
+    }
+
+    #reviews h2 {
+        text-shadow: none;
+    }
+
+    #reviews-outer {
+        height: 450px;
+    }
+
+    #reviews h2, #reviews-inner {
+        top: 30px;
+    }
+}
+
+/* For screens  */
+@media screen and (max-width: 500px) {
