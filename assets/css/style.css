@@ -724,6 +724,10 @@ footer a {
     padding-right: 30px;
 }
 
+#back-to-top p {
+    display: inline;
+}
+
 #back-to-top a {
     background: #00ffff;
     color: #02040f;
@@ -1672,8 +1676,8 @@ footer a {
     }
 
     #reviews-inner {
-        width: 460px;
-        margin: auto;
+        width: 100vw;
+        margin: 0 auto;
     }
 
     #reviews h2 {
@@ -1685,7 +1689,7 @@ footer a {
         width: 450px;
         height: 150px;
         background: #fff;
-        margin: 20px 0;
+        margin: 20px auto;
     }
 
     .member-review h3 {
@@ -1763,6 +1767,10 @@ footer a {
         top: 13vh;
     }
 
+    #about-us-container {
+        padding: 0 25px;
+    }
+
     .caption-over-image {
         flex-direction: column;
     }
@@ -1773,6 +1781,10 @@ footer a {
 
     #reviews {
         height: 350px;
+    }
+
+    #reviews h2 {
+        left: 50px;
     }
 
     .member-review {
@@ -1791,5 +1803,74 @@ footer a {
 
     #social-media i {
         font-size: 1.5rem;
+    }
+}
+
+/* For screens  */
+@media screen and (max-width: 405px) {
+    .logo {
+        padding-left: 10px;
+    }
+    
+    #menu-left li {
+        border-left: solid 1px #efe9fa;
+        padding: 0 2px;
+    }
+
+    #menu-left li:first-child {
+        padding-left: 0;
+    }
+
+    nav {
+        padding: 0 10px;
+    }
+
+    #menu-right a {
+        margin: 0 2px;
+    }
+
+
+    #home img {
+        object-position: 70% -20px;
+    }
+
+    #slogan {
+        padding-left: 0;
+        text-align: center;
+        top: 13vh;
+    }
+
+    #slogan h3 {
+        padding-left: 0;
+        bottom: 0;
+        font-size: 25px;
+    }
+
+    #slogan h2 {
+        font-size: 25px;
+    }
+
+    #key-points {
+        padding-bottom: 70px;
+    }
+
+    .card {
+        top: 30px;
+    }
+
+    #faqs {
+        padding-bottom: 50px;
+    }
+
+    #faqs h2, #faqs-container {
+        top: 20px;
+    }
+
+    #back-to-top {
+        flex-grow: 4;
+    }
+
+    #back-to-top p {
+        display: none;
     }
 }
