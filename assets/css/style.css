@@ -17,6 +17,7 @@ body {
     font-weight: 500;
     height: fit-content;
     transition: all 1s;
+    min-width: 300px;
 }
 
 #page-content {
@@ -43,6 +44,7 @@ header {
     width: 100%;
     justify-content: space-between;
     max-width: 1900px;
+    min-width: 300px;
     margin: 0 auto;
     flex-wrap: wrap;
 }
@@ -183,6 +185,7 @@ nav {
     overflow: hidden;
     background: #02040f;
     z-index: 0;
+    min-width: 300px;
 }
 
 /*  */
@@ -270,7 +273,11 @@ nav {
     font-size: 25px;
     position: relative;
     top: 100px;
-    margin: 40px;
+    margin: 20px;
+}
+
+.card p {
+    margin: 0 10px;
 }
 
 /*  */
@@ -318,7 +325,7 @@ nav {
     background: pink;
     object-fit: cover;
     flex: none;
-
+    align-self: center;
 }
 
 #about-us p {
@@ -450,7 +457,7 @@ details {
     border-radius: 5px;
     width: 700px;
     font-size: 25px;
-    margin: 30px auto;
+    margin: 30px 15px;
     box-shadow: 5px 5px #476a6f;
     cursor: pointer;
 }
@@ -625,17 +632,21 @@ button:hover {
     position: relative;
 }
 
-#block-left {
+.review-block {
     width: 2575px;
     background: #ffff00;
     height: inherit;
+}
+
+#block-left {
+
     float: left;
 }
 
 #block-right {
-    width: 2575px;
+    /* width: 2575px;
     background: #ffff00;
-    height: inherit;
+    height: inherit; */
     float: right;
 }
 
@@ -1199,12 +1210,80 @@ footer a {
       background: #da5552;
       color: #02040f;
   }
-  
-  #reset:active {
-      background: #c33e3c !important;
-      color: #02040f;
-  }
-  
-  #reset:focus {
-     background: #c33e3c !important;
-  }
+
+
+
+/* Media Queries */
+
+/* For screens  */
+@media screen and (max-width: 1300px) {
+    #slogan {
+        top: 40vh;
+    }
+    
+    #slogan h2, #slogan h3 {
+        font-size: 70px;
+    }
+
+    #faqs h2 {
+        font-size: 60px;
+    }
+
+    #faqs h2 i {
+        font-size: 50px;
+    }
+}
+/* For screens  */
+@media screen and (max-width: 1100px) {
+    .card {
+        padding: 0;
+        font-size: 20px;
+    }
+    
+    #about-us p {
+        font-size: 15px;
+    }
+    
+    #reviews h2 {
+        font-size: 65px;
+        left: 150px;
+    }
+
+
+    #scrolling-reviews-container {
+        left: 2750px;
+    }
+
+    .member-review {
+        width: 450px;
+        font-size: 16px;
+    }
+
+    .left {
+        left: 2650px;
+    }
+
+    .right {
+        left: 3300px;
+    }
+
+    .one:focus~#scrolling-reviews-container {
+        left: 2750px;
+    }
+    
+    .two:focus~#scrolling-reviews-container {
+        left: 2248px;
+    }
+    
+    .three:focus~#scrolling-reviews-container {
+        left: 1744px;
+    }
+
+    .review-block {
+        width: 2750px;
+    }
+
+    #border {
+        width: 500px;
+    }
+}
