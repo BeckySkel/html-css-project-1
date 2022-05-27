@@ -1469,6 +1469,14 @@ footer a {
     #sign-up p {
         margin: 10px auto;
     }
+
+    .what-next h3 {
+        font-size: 20px;
+    }
+
+    .what-next p {
+        font-size: 15px;
+    }
 }
 
 /* For screens  */
@@ -1586,6 +1594,10 @@ footer a {
 
     .right {
         left: 3260px;
+    }
+
+    #page-content {
+        min-height: calc(100vh - 70px);
     }
     
     footer {
@@ -1821,6 +1833,14 @@ footer a {
 
     #submit {
         font-size: 15px;
+    }
+
+    .what-next h3 {
+        font-size: 15px;
+    }
+
+    .what-next p {
+        font-size: 13px;
     }
 }
 
