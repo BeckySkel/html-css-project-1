@@ -1577,7 +1577,8 @@ textarea:focus {
 
     .menu {
         position: relative;
-        bottom: 22px;
+        bottom: 15px;
+        font-size: 10px;
     }
 
     #menu-right a {
@@ -1807,23 +1808,27 @@ textarea:focus {
 
 /* For small screens 525px and down */
 @media screen and (max-width: 525px) {
-    header {
-        height: 80px;
-    }
-
-    nav {
-        padding-top: 0px;
+    .logo {
         padding-left: 10px;
     }
 
-    .menu {
-        bottom: 5px;
+    nav {
+        padding: 40px 10px 0;
+    }
+    
+    #menu-left li {
+        border-left: solid 1px #efe9fa;
+        padding: 0 2px;
     }
 
-    #menu-right {
-        bottom: 8px;
+    #menu-left li:first-child {
+        padding-left: 0;
     }
 
+    #menu-right a {
+        margin: 0 2px;
+    }
+    
     #home img {
         object-position: 50% -20px;
     }
@@ -1880,28 +1885,18 @@ textarea:focus {
 }
 
 /* For screens  */
-@media screen and (max-width: 405px) {
+@media screen and (max-width: 406px) {
+    header {
+        height: 75px;
+    }
+
     .logo {
-        padding-left: 10px;
-    }
-
-    #menu-left li {
-        border-left: solid 1px #efe9fa;
-        padding: 0 2px;
-    }
-
-    #menu-left li:first-child {
-        padding-left: 0;
+        padding-bottom: 5px;
     }
 
     nav {
         padding: 0 10px;
     }
-
-    #menu-right a {
-        margin: 0 2px;
-    }
-
 
     #home img {
         object-position: 70% -20px;
