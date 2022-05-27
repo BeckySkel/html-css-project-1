@@ -1107,11 +1107,6 @@ footer a {
     margin: 0 auto;
   }
   
-  .required {
-      color: #da5552;
-      font-weight: bold;
-  }
-  
   .form-half {
       display: flex;
       flex-direction: column;
@@ -1235,6 +1230,30 @@ footer a {
     .membership-options {
         margin: 10px 0;
     }
+
+    .location-card {
+        width: 250px;
+        height: 375px;
+        margin: 0 10px;
+    }
+
+    .location-map {
+        height: 150px;
+        width: 100%;
+    }
+
+    .location-card h3 {
+        font-size: 30px;
+        bottom: 25px;
+    }
+    
+    .location-card table {
+        font-size: 15px;
+    }
+
+    td {
+        padding: 5px;
+    }
 }
 
 
@@ -1348,6 +1367,26 @@ footer a {
 
     footer .logo h2 {
         font-size: 4rem !important;
+    }
+
+    #locations-container {
+        flex-direction: column;
+    }
+
+    .location-card {
+        width: 500px;
+        height: 325px;
+        margin: 10px auto;
+    }
+    
+    .location-card table {
+        margin: 0 auto;
+        padding: 0;
+        width: 300px;
+    }
+
+    td {
+        padding: 5px;
     }
 }
 
@@ -1545,6 +1584,14 @@ footer a {
 
     .membership input {
         width: 80%;
+    }
+
+    #contact-form {
+        padding: 0;
+    }
+
+    #contact-form {
+        font-size: 13px;
     }
 }
 
@@ -1842,6 +1889,29 @@ footer a {
     .what-next p {
         font-size: 13px;
     }
+
+    #contact-form {
+        top: 0;
+        padding-bottom: 20px;
+    }
+
+    textarea {
+        margin: 0 15px 20px;
+    }
+
+    .location-card {
+        width: 275px;
+    }
+
+    .location-map {
+        height: 100px;
+    }
+
+    .location-card table {
+        width: 250px;
+        padding: 0 10px;
+        margin: 0;
+    }
 }
 
 
@@ -1987,4 +2057,7 @@ footer a {
         width: 100%;
     }
 
+    #locations-container {
+        padding-bottom: 40px;
+    }
 }
