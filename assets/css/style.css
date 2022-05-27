@@ -14,7 +14,6 @@ body {
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
     height: fit-content;
-    transition: all 1s;
     min-width: 300px;
 }
 
@@ -1605,7 +1604,7 @@ textarea:focus {
     }
 
     #slogan {
-        top: 10vh;
+        top: 11vh;
         text-shadow: 3px 3px #02040f;
     }
 
@@ -1619,7 +1618,7 @@ textarea:focus {
     }
 
     #header-backing {
-        height: 50px;
+        height: 60px;
     }
 
     #key-points-container {
@@ -1817,7 +1816,7 @@ textarea:focus {
     nav {
         padding: 40px 10px 0;
     }
-    
+
     #menu-left li {
         border-left: solid 1px #efe9fa;
         padding: 0 2px;
@@ -1830,7 +1829,7 @@ textarea:focus {
     #menu-right a {
         margin: 0 2px;
     }
-    
+
     #home img {
         object-position: 50% -20px;
     }
@@ -1878,7 +1877,7 @@ textarea:focus {
     }
 
     #social-media i {
-        font-size: 1.5rem;
+        font-size: 20px;
     }
 
     #social-media li {
@@ -1890,7 +1889,7 @@ textarea:focus {
     }
 }
 
-/* For screens  */
+/* For small screens 406 and below  */
 @media screen and (max-width: 406px) {
     header {
         height: 75px;
