@@ -1740,7 +1740,8 @@ textarea:focus {
 
     #back-to-top {
         position: relative;
-        top: -10px;
+        top: -5px;
+        font-size: 10px;
     }
 
     footer .logo h2 {
@@ -1881,6 +1882,10 @@ textarea:focus {
 
     #social-media li {
         margin: 5px;
+    }
+
+    #back-to-top {
+        padding-right: 10px;
     }
 }
 
