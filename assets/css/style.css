@@ -1736,6 +1736,7 @@ textarea:focus {
     #social-media {
         padding: 0;
         top: 15px;
+        height: 20px;
     }
 
     #back-to-top {
@@ -1763,7 +1764,7 @@ textarea:focus {
     }
 
     .faded-container {
-        margin: 100px auto 50px;
+        margin: 150px auto 50px;
     }
 
     #ts-and-cs {
