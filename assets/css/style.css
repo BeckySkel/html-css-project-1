@@ -704,7 +704,7 @@ footer a {
     min-height: 110vh;
     width: 100%;
     object-fit: cover;
-    filter: brightness(50%);
+    filter: brightness(30%);
     top: 0;
 }
 
