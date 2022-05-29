@@ -1891,7 +1891,7 @@ textarea:focus {
 
 /* For small screens 406 and below  */
 @media screen and (max-width: 406px) {
-    header {
+    header, #header-backing{
         height: 75px;
     }
 
