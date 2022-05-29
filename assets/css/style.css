@@ -179,7 +179,7 @@ nav {
 }
 
 #slogan h2 {
-    opacity: 0.5;
+    opacity: 0.7;
 }
 
 #slogan h3 {
@@ -1611,10 +1611,6 @@ textarea:focus {
     #slogan h2,
     #slogan h3 {
         font-size: 30px;
-    }
-
-    #slogan h2 {
-        opacity: 0.7;
     }
 
     #slogan h3 {
