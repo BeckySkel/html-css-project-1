@@ -209,6 +209,7 @@
 - [Code Institute](https://codeinstitute.net/) fullstack developer course to learn how to create
 - [W3Schools](https://www.w3schools.com/) for help with common coding issues
 - [Flexbox Froggy](https://flexboxfroggy.com/) to learn the basics of flexbox design
+- [Am I Responsive?](https://ui.dev/amiresponsive) for device simulations
 
 ---
 ## Surface
@@ -237,7 +238,7 @@
 - Also used for links and buttons to provide recognisable imagery of the outcome after clicking.
 
 ### Deployment
-
+- 
 
 ---
 ## Credits
