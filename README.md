@@ -56,15 +56,11 @@
 - As a current member, I would like to see a timetable of the available classes.
 - As a current member, I would like links to the social medias of the gym so that I can follow them and tag them in my posts.
 
-### Research
-- Before any planning, I conducted research into other gym websites and took note of common features and layouts, as well as which features I thought were affective and would be good to include for GO!gym and my target audience.
-
-### Wireframes
-- After looking at common themes and deciding what I would like to include, I mapped out the intended features of the website using [Balsamiq]() to create wireframes of each page
-- [View the wireframes here](assets/documents/wireframes.pdf)
-
 ---
 ## Scope
+
+### Research
+- Before any planning, I conducted research into other gym websites and took note of common features and layouts, as well as which features I thought were affective and would be good to include for GO!gym and my target audience.
 
 ### Future Features
 
@@ -77,23 +73,22 @@
 #### Payment
 - To make the sign-up form functional, there would usually be a payment section included within the form itself. Or, after submitting the sign-up form, the user would be lead to an external payment page such as PayPal. There is no payment account connected to GO!gym and this would only be for effect. At this stage, there would also be no way to bring the user back to the site without having made payment, so they would not receive the thank you message with further instructions.
 
-### Git
-- ???
-
 ### Testing
 - Throughout the project, I relied heavily on [Chrome Devtools]() to help me view this project on different screen sizes so that I could adjest elements and create media queries for different devices. 
 
 ---
 ## Structure
 
+
+### Wireframes
+- After looking at common themes and deciding what I would like to include, I mapped out the intended features of the website using [Balsamiq]() to create wireframes of each page
+- [View the wireframes here](assets/documents/wireframes.pdf)
+
 ### Information architecture
 - GO!gym is a landing site for a collection of gyms in 3 different cities across the UK. The website has a home page with key information about the membership-perks and gym sites themselves.
 - The information is presented in a catchy, easy-to-digest way, with the information presented in a mix of informative paragraphs, graphic key-points and interactive elements. There is also a mix of official GO!gym-written material and user-submitted content.  (i.e. frequently asked questions [FAQs] and member reviews).
 - The home page has been split in to 3 main sections (6 defined sections in total, but grouped by similarity for the sake of cleaner navigation) links to these can be found in the main navigation, alongside links to the other pages of the website; Contact page and Sign Up page.
 - All forms on this site are currently dummy forms for presentation purposes only, the information does not get stored anywhere but each form displays a different thank you message on submission to feedback to the user that their submission was successful.
-
-### Technologies used
-
 
 ---
 ## Skeleton
@@ -185,6 +180,27 @@
 ![Screenshot of the 'your membership' fieldset of the sign-up form](assets/images/su-membership.png)
 ![Screenshot of the thank you message](assets/images/su-thankyou.png)
 
+### Technologies used
+
+#### Languages
+- [HTML]()
+- [CSS]()
+- [Git]() for version control
+
+#### Other resources
+- [Gitpod]() to alter and manage website files
+- [Github]() to create and store website files
+- [Chrome Devtools]() to test site throughout process
+- [Balsamiq]() to create wireframes
+- [Coolers]() to choose a colour scheme
+- [Google Fonts]() for the website font (Poppins)
+- [Font Awesome]() used to add icons
+- [MS Paint]() used to create the favicon
+- [Pexels]() for images
+- [Code Institute]() fullstack developer course to learn how to create
+- [W3Schools]() for help with common coding issues
+- [Flexbox Froggy]() to learn the basics of flexbox design
+
 ---
 ## Surface
 
@@ -211,10 +227,18 @@
 - Font Awesome icons were used alongside key information to provide visual aid of the associated information .
 - Also used for links and buttons to provide recognisable imagery of the outcome after clicking.
 
-
-
-
 ---
+## Credits
 
+### Content
 
+### Media
+- 
+
+### Acknowledgements
+- [Code Institute]() for providing excellent learning content 
+- Reuben Ferrante as my mentor
+- [W3Schools]() for quick and easy guidance on HTML and CSS
+- The users of [Stack Overflow]() for asking and answering some of the harder HTML and CSS questions
+- Other CI students for sharing their work and providing guidance on mine
 
