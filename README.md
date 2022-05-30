@@ -74,11 +74,11 @@
 - To make the sign-up form functional, there would usually be a payment section included within the form itself. Or, after submitting the sign-up form, the user would be lead to an external payment page such as PayPal. There is no payment account connected to GO!gym and this would only be for effect. At this stage, there would also be no way to bring the user back to the site without having made payment, so they would not receive the thank you message with further instructions.
 
 ### Testing
-- Throughout the project, I relied heavily on [Chrome Devtools](https://developer.chrome.com/docs/devtools/) to help me view this project on different screen sizes so that I could adjest elements and create media queries for different devices. 
+- Throughout the project, I relied heavily on [Chrome Devtools](https://developer.chrome.com/docs/devtools/) to help me view this project on different screen sizes so that I could adjust elements and create media queries for different devices. 
+- Please follow [this link](assets/documents/TESTING.md) for full list of tests carried out on this website
 
 ---
 ## Structure
-
 
 ### Wireframes
 - After looking at common themes and deciding what I would like to include, I mapped out the intended features of the website using [Balsamiq]() to create wireframes of each page
@@ -261,4 +261,9 @@
 - [W3Schools](https://www.w3schools.com/) for quick and easy guidance on HTML and CSS
 - The users of [Stack Overflow](https://stackoverflow.com/) for asking and answering some of the harder HTML and CSS questions
 - Other CI students for sharing their work and providing inspiration and guidance on mine
+
+---
+Please note that GO!gym is a ficticious gym invented for demonstration purposes and this website was built as a submission for my portfolio project 1 on the Code Institute Fullstack Developer course.
+
+Becky Skelcher 2022
 
