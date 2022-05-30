@@ -74,7 +74,7 @@
 - To make the sign-up form functional, there would usually be a payment section included within the form itself. Or, after submitting the sign-up form, the user would be lead to an external payment page such as PayPal. There is no payment account connected to GO!gym and this would only be for effect. At this stage, there would also be no way to bring the user back to the site without having made payment, so they would not receive the thank you message with further instructions.
 
 ### Testing
-- Throughout the project, I relied heavily on [Chrome Devtools]() to help me view this project on different screen sizes so that I could adjest elements and create media queries for different devices. 
+- Throughout the project, I relied heavily on [Chrome Devtools](https://developer.chrome.com/docs/devtools/) to help me view this project on different screen sizes so that I could adjest elements and create media queries for different devices. 
 
 ---
 ## Structure
@@ -86,7 +86,7 @@
 
 ### Information architecture
 - GO!gym is a landing site for a collection of gyms in 3 different cities across the UK. The website has a home page with key information about the membership-perks and gym sites themselves.
-- The information is presented in a catchy, easy-to-digest way, with the information presented in a mix of informative paragraphs, graphic key-points and interactive elements. There is also a mix of official GO!gym-written material and user-submitted content.  (i.e. frequently asked questions [FAQs] and member reviews).
+- The information is presented in a catchy, easy-to-digest way, with the information presented in a mix of informative paragraphs, graphic key-points and interactive elements. There is also a mix of official GO!gym-written material and user-submitted content.  (i.e. frequently asked questions (FAQs) and member reviews).
 - The home page has been split in to 3 main sections (6 defined sections in total, but grouped by similarity for the sake of cleaner navigation) links to these can be found in the main navigation, alongside links to the other pages of the website; Contact page and Sign Up page.
 - All forms on this site are currently dummy forms for presentation purposes only, the information does not get stored anywhere but each form displays a different thank you message on submission to feedback to the user that their submission was successful.
 
@@ -183,23 +183,24 @@
 ### Technologies used
 
 #### Languages
-- [HTML]()
-- [CSS]()
-- [Git]() for version control
+- [HTML](https://en.wikipedia.org/wiki/HTML)
+- [CSS](https://en.wikipedia.org/wiki/CSS)
+- [Git](https://en.wikipedia.org/wiki/Git) for version control
 
 #### Other resources
-- [Gitpod]() to alter and manage website files
-- [Github]() to create and store website files
-- [Chrome Devtools]() to test site throughout process
-- [Balsamiq]() to create wireframes
-- [Coolers]() to choose a colour scheme
-- [Google Fonts]() for the website font (Poppins)
-- [Font Awesome]() used to add icons
-- [MS Paint]() used to create the favicon
-- [Pexels]() for images
-- [Code Institute]() fullstack developer course to learn how to create
-- [W3Schools]() for help with common coding issues
-- [Flexbox Froggy]() to learn the basics of flexbox design
+- [Gitpod](https://www.gitpod.io/) to alter and manage website files
+- [Github](https://github.com/) to create and store website files
+- [Github Pages](https://pages.github.com/) to deploy site
+- [Chrome Devtools](https://developer.chrome.com/docs/devtools/) to test site throughout process
+- [Balsamiq](https://balsamiq.com/) to create wireframes
+- [Coolors](https://coolors.co/) to choose a colour scheme
+- [Google Fonts](https://fonts.google.com/) for the website font (Poppins)
+- [Font Awesome](https://fontawesome.com/) used to add icons
+- [MS Paint](https://apps.microsoft.com/store/detail/paint/9PCFS5B6T72H?hl=en-us&gl=US) used to create the favicon
+- [Pexels](https://www.pexels.com/) for images
+- [Code Institute](https://codeinstitute.net/) fullstack developer course to learn how to create
+- [W3Schools](https://www.w3schools.com/) for help with common coding issues
+- [Flexbox Froggy](https://flexboxfroggy.com/) to learn the basics of flexbox design
 
 ---
 ## Surface
@@ -211,11 +212,11 @@
 ![The colour sheme I used](assets/images/colours.png)
 
 - A bright and energising colour scheme has been used to elicit feelings of excitement and motivation.
-- I used [Coolers]() to help pick a colour scheme.
+- I used [Coolors](https://coolors.co/) to help pick a colour scheme.
 - There are 3 base colours and 2 highlights. The base colours are off-white, warm grey and soft black. The highlights are neon yellow and blue. AThis vibrant palette represents the gym values of being enjoyable and unintimidating.
 
 #### Imagery
-- All images sourced from [Pexels]()
+- All images sourced from [Pexels](https://www.pexels.com/)
 - The images were chosen with a similar saturation of colours to that of the website itself. The colour-scheme is vibrant and high contrast, so images were chosen that matched this.
 - All images remain relevant to the website with the subjects interacting with either the exercise equipment or other gym features. Most subjects are smiling to further convey the message that this gym is an inviting place.
 
@@ -226,6 +227,9 @@
 #### Icons
 - Font Awesome icons were used alongside key information to provide visual aid of the associated information .
 - Also used for links and buttons to provide recognisable imagery of the outcome after clicking.
+
+### Deployment
+
 
 ---
 ## Credits
@@ -243,18 +247,18 @@
      - [Results Health Club](https://resultshealthclubs.co.uk/)
 - Issues with flexbox forcing non-active FAQs to open when another does siolved with help from [Techstacker](https://techstacker.com/prevent-flexbox-child-element-height-stretch-css/)
 - Thank you message after completion of contact form provided by [obayral (user on Stack Overflow)](https://stackoverflow.com/questions/54133144/show-thank-you-message-on-form-submit)
-- Code for maps iframes provided by [Google Maps]() embed feature. Height and width altered by me to fit
-- Social media links inspired by [Code Institute]() Love Running project, heavily altered by me 
+- Code for maps iframes provided by [Google Maps](https://www.google.com/mapshttps://www.google.com/maps) embed feature. Height and width altered by me to fit
+- Social media links inspired by [Code Institute](https://codeinstitute.net/) Love Running project, heavily altered by me 
 - Code for non-sticky footer which is always at bottom of page, even with small amount of content by [CSS Tricks](https://css-tricks.com/couple-takes-sticky-footer/)
 
 ### Media
-- All icons form [Font Awesome]()
-- All images from [Pexels]()
+- All icons form [Font Awesome](https://fontawesome.com/)
+- All images from [Pexels](https://www.pexels.com/)
 
 ### Acknowledgements
-- [Code Institute]() for providing excellent learning content 
+- [Code Institute](https://codeinstitute.net/) for providing excellent learning content 
 - Reuben Ferrante as my mentor
-- [W3Schools]() for quick and easy guidance on HTML and CSS
-- The users of [Stack Overflow]() for asking and answering some of the harder HTML and CSS questions
-- Other CI students for sharing their work and providing guidance on mine
+- [W3Schools](https://www.w3schools.com/) for quick and easy guidance on HTML and CSS
+- The users of [Stack Overflow](https://stackoverflow.com/) for asking and answering some of the harder HTML and CSS questions
+- Other CI students for sharing their work and providing inspiration and guidance on mine
 
