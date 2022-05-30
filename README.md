@@ -231,8 +231,18 @@
 ## Credits
 
 ### Content
+- Websites used for initial research:
+     - 
+     - 
+     - 
+     - 
+     - 
+     - 
+
 
 ### Media
+- All icons form [Font Awesome]()
+- All images from [Pexels]()
 - 
 
 ### Acknowledgements
