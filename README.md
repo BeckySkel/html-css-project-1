@@ -2,11 +2,9 @@
 
 ![The GO!gym website features displayed on different devises](assets/images/responsive-test.png)
 
-GO!gym is a gym with the purpose of motivating it’s members to attend regularly by combining as many desirable gym features in one friendly and accessible place. With this motivation, gym-goers will be more likely to keep on track and achieve their fitness goals, whatever they may be.
+- GO!gym is a gym with the purpose of motivating it’s members to attend regularly by combining as many desirable gym features in one friendly and accessible place. With this motivation, gym-goers will be more likely to keep on track and achieve their fitness goals, whatever they may be.
 
-The website is targeted towards active individuals around the UK cities of Birmingham, Oxford or London who either aren't satisfied with their current gym and are looking for a more affordable or convenient option, or those who are looking to join a gym for the first time and may need extra support to keep on track.
-
-Their site exists to provide relevant information to anyone who is considering switching to GO!gym or would like some further information about what they have to offer. It has been built using HTML and CSS and can be viewed on a range of devices, including those with screen-widths as low as 310 pixels, so that users are able to research GO!gym whilst on-the-go.
+- Their site exists to provide relevant information to anyone who is considering switching to GO!gym or would like some further information about what they have to offer. It has been built using HTML and CSS and can be viewed on a range of devices, including those with screen-widths as low as 310 pixels, so that users are able to research GO!gym whilst on-the-go.
 
 
 ## Links
@@ -33,8 +31,8 @@ Their site exists to provide relevant information to anyone who is considering s
 ---
 ## Strategy
 
-### Research
-
+### Target Audience
+- The website is targeted towards active individuals around the UK cities of Birmingham, Oxford or London who either aren't satisfied with their current gym and are looking for a more affordable or convenient option, or those who are looking to join a gym for the first time and may need extra support to keep on track. 
 
 ### User Stories
 
@@ -58,16 +56,14 @@ Their site exists to provide relevant information to anyone who is considering s
 - As a current member, I would like to see a timetable of the available classes.
 - As a current member, I would like links to the social medias of the gym so that I can follow them and tag them in my posts.
 
+### Research
+- Before any planning, I conducted research into other gym websites and took note of common features and layouts, as well as which features I thought were affective and would be good to include for GO!gym and my target audience.
 
 ### Wireframes
-- To map out the intended features of the website, I used Balsamiq to create wireframes of each page
+- After looking at common themes and deciding what I would like to include, I mapped out the intended features of the website using [Balsamiq]() to create wireframes of each page
 - [View the wireframes here](assets/documents/wireframes.pdf)
 
-
-
-
 ---
-
 ## Scope
 
 ### Future Features
@@ -81,14 +77,26 @@ Their site exists to provide relevant information to anyone who is considering s
 #### Payment
 - To make the sign-up form functional, there would usually be a payment section included within the form itself. Or, after submitting the sign-up form, the user would be lead to an external payment page such as PayPal. There is no payment account connected to GO!gym and this would only be for effect. At this stage, there would also be no way to bring the user back to the site without having made payment, so they would not receive the thank you message with further instructions.
 
+### Git
+- ???
+
+### Testing
+- Throughout the project, I relied heavily on [Chrome Devtools]() to help me view this project on different screen sizes so that I could adjest elements and create media queries for different devices. 
+
 ---
 ## Structure
 
-### Outline
+### Information architecture
 - GO!gym is a landing site for a collection of gyms in 3 different cities across the UK. The website has a home page with key information about the membership-perks and gym sites themselves.
 - The information is presented in a catchy, easy-to-digest way, with the information presented in a mix of informative paragraphs, graphic key-points and interactive elements. There is also a mix of official GO!gym-written material and user-submitted content.  (i.e. frequently asked questions [FAQs] and member reviews).
 - The home page has been split in to 3 main sections (6 defined sections in total, but grouped by similarity for the sake of cleaner navigation) links to these can be found in the main navigation, alongside links to the other pages of the website; Contact page and Sign Up page.
 - All forms on this site are currently dummy forms for presentation purposes only, the information does not get stored anywhere but each form displays a different thank you message on submission to feedback to the user that their submission was successful.
+
+### Technologies used
+
+
+---
+## Skeleton
 
 ### Current Features
 
@@ -178,10 +186,33 @@ Their site exists to provide relevant information to anyone who is considering s
 ![Screenshot of the thank you message](assets/images/su-thankyou.png)
 
 ---
-## Skeleton
-
----
 ## Surface
+
+### Design
+
+#### Colour scheme
+
+![The colour sheme I used](assets/images/colours.png)
+
+- A bright and energising colour scheme has been used to elicit feelings of excitement and motivation.
+- I used [Coolers]() to help pick a colour scheme.
+- There are 3 base colours and 2 highlights. The base colours are off-white, warm grey and soft black. The highlights are neon yellow and blue. AThis vibrant palette represents the gym values of being enjoyable and unintimidating.
+
+#### Imagery
+- All images sourced from [Pexels]()
+- The images were chosen with a similar saturation of colours to that of the website itself. The colour-scheme is vibrant and high contrast, so images were chosen that matched this.
+- All images remain relevant to the website with the subjects interacting with either the exercise equipment or other gym features. Most subjects are smiling to further convey the message that this gym is an inviting place.
+
+#### Typography
+- All text is in the Poppins font. It is a geometric sans serif typeface that is clear and easily read. It’s playful style pairs well with the bold colours and curved edges used in the design of the site. 
+- Sans serif has been used as the fallback option as it is the closest web-safe font.
+
+#### Icons
+- Font Awesome icons were used alongside key information to provide visual aid of the associated information .
+- Also used for links and buttons to provide recognisable imagery of the outcome after clicking.
+
+
+
 
 ---
 
