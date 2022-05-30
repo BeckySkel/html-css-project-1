@@ -9,24 +9,32 @@
 
 ## Links
 
-[Link to the live project](https://beckyskel.github.io/html-css-project-1/)
+[Link to the live project (right click to open in new tab)](https://beckyskel.github.io/html-css-project-1/)
 
-[Link to the project repository](https://github.com/BeckySkel/html-css-project-1)
+[Link to the project repository (right click to open in new tab)](https://github.com/BeckySkel/html-css-project-1)
 
 ---
 ## Table of Contents
-- [Strategy](##Strategy)
-    - 
-    - 
-    - 
-- [Scope](README.md##Scope)
-    - 
-- [Structure](##Structure)
-    - 
-- [Skeleton](##Skeleton)
-    - 
-- [Surface](##Surface)
-    - 
+- [Strategy](https://github.com/BeckySkel/html-css-project-1/blob/main/README.md#strategy-1)
+    - [Target Audience](https://github.com/BeckySkel/html-css-project-1/blob/main/README.md#target-audience)
+    - [User Stories](https://github.com/BeckySkel/html-css-project-1/blob/main/README.md#user-stories)
+- [Scope](https://github.com/BeckySkel/html-css-project-1/blob/main/README.md#scope-1)
+    - [Research](https://github.com/BeckySkel/html-css-project-1/blob/main/README.md#research)
+    - [Future Features](https://github.com/BeckySkel/html-css-project-1/blob/main/README.md#future-features)
+    - [Testing](https://github.com/BeckySkel/html-css-project-1/blob/main/README.md#testing)
+- [Structure](https://github.com/BeckySkel/html-css-project-1/blob/main/README.md#structure-1)
+    - [Wireframes](https://github.com/BeckySkel/html-css-project-1/blob/main/README.md#wireframes)
+    - [Information Architecture](https://github.com/BeckySkel/html-css-project-1/blob/main/README.md#information-architecture)
+- [Skeleton](https://github.com/BeckySkel/html-css-project-1/blob/main/README.md#skeleton-1)
+    - [Current Features](https://github.com/BeckySkel/html-css-project-1/blob/main/README.md#current-features)
+    - [Technologies Used](https://github.com/BeckySkel/html-css-project-1/blob/main/README.md#technologies-used)
+- [Surface](https://github.com/BeckySkel/html-css-project-1/blob/main/README.md#surface-1)
+    - [Design](https://github.com/BeckySkel/html-css-project-1/blob/main/README.md#design)
+    - [Deployment](https://github.com/BeckySkel/html-css-project-1/blob/main/README.md#deployment)
+- [Credits](https://github.com/BeckySkel/html-css-project-1/blob/main/README.md#credits)
+    - [Content](https://github.com/BeckySkel/html-css-project-1/blob/main/README.md#content)
+    - [Media](https://github.com/BeckySkel/html-css-project-1/blob/main/README.md#media)
+    - [Acknowledgemnets](https://github.com/BeckySkel/html-css-project-1/blob/main/README.md#acknowledgements)
 
 ---
 ## Strategy
