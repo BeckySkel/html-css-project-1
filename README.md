@@ -232,18 +232,24 @@
 
 ### Content
 - Websites used for initial research:
-     - 
-     - 
-     - 
-     - 
-     - 
-     - 
-
+     - [Buzz Gym](https://www.buzzgym.co.uk/oxford/?gclid=CjwKCAjw9qiTBhBbEiwAp-GE0V2NeDWHa0WffEnFOSEqvzUxT8-vzemoWl1melvAitSriELdtHzGKRoC2m4QAvD_BwE)
+     - [24/7 Fitness](https://247fitness.co/)
+     - [Results Fitness](https://www.results-fitness.com/)
+     - [Pure Gym](https://www.puregym.com/?utm_medium=cpc&gclid=CjwKCAjw9qiTBhBbEiwAp-GE0Wu4_S67LZEQWitYwxpOW9M1WnME0NxkU_VoQpUGReY-IOFc4rgHSRoCi3EQAvD_BwE&gclsrc=aw.ds)
+     - [Planet Fitness](https://www.planetfitness.com/)
+     - [Anytime Fitness](https://www.anytimefitness.co.uk/gyms/uk-0248/headington-oxford-south-east-ox3-9ax/?gclid=CjwKCAjw9qiTBhBbEiwAp-GE0RnPSCY0PGybwjnrqrJSfBdT4HJTDvMDGKyMTP9dw9ZnDdZXmovAzRoCdd8QAvD_BwE)
+     - [The Gym Group](https://www.thegymgroup.com/find-a-gym/oxford-gyms/oxford-headington/?gclid=CjwKCAjw9qiTBhBbEiwAp-GE0TkNKOxib3aQ5R3zSta1WS30X40eqWltln_EsSMRH_HojW1c3d9zYhoCUZkQAvD_BwE&gclsrc=aw.ds)
+     - [Better Leisure](https://www.better.org.uk/memberships/gym-membership-deals-and-offers?utm_source=google&utm_medium=paid&utm_campaign=bau&utm_term=better&gclid=CjwKCAjw9qiTBhBbEiwAp-GE0dHDD78e3w0wVUVEFU0C8-EcolRML4_fnci4lanNUSu6KqturOLaTBoCxcEQAvD_BwE&gclsrc=aw.ds) 
+     - [Results Health Club](https://resultshealthclubs.co.uk/)
+- Issues with flexbox forcing non-active FAQs to open when another does siolved with help from [Techstacker](https://techstacker.com/prevent-flexbox-child-element-height-stretch-css/)
+- Thank you message after completion of contact form provided by [obayral (user on Stack Overflow)](https://stackoverflow.com/questions/54133144/show-thank-you-message-on-form-submit)
+- Code for maps iframes provided by [Google Maps]() embed feature. Height and width altered by me to fit
+- Social media links inspired by [Code Institute]() Love Running project, heavily altered by me 
+- Code for non-sticky footer which is always at bottom of page, even with small amount of content by [CSS Tricks](https://css-tricks.com/couple-takes-sticky-footer/)
 
 ### Media
 - All icons form [Font Awesome]()
 - All images from [Pexels]()
-- 
 
 ### Acknowledgements
 - [Code Institute]() for providing excellent learning content 
