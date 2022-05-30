@@ -62,7 +62,35 @@
 ![Screenshot of Lighthouse score for thank-you.html on mobile](/assets/images/thank-you-mobile.png)
 
 ---
-## Chrome Devtools
+## Manual testing
+
+### Homepage
+- All links tested manually ***date*** and found to be working as intended
+- Interactive elements tested manually on ***date*** and found to be working as intended
+
+### Contact page
+- All links tested manually ***date*** and found to be working as intended
+- Interactive elements tested manually on ***date*** and found to be working as intended
+- Form validation tested manually on ***date*** and found to be working as intended
+
+### Sign-up page
+- All links tested manually ***date*** and found to be working as intended
+- Form validation tested manually on ***date*** and found to be working as intended
+
+### Thank you page
+- All links tested manually ***date*** and found to be working as intended
+
+---
+## Different browsers
+- Tested and found to be working as intended on the following browsers :
+    - Chrome
+    - Firefox
+    - Microsoft Edge
+- Unable to test on Safari as unble to download on my Windows PC
+- Certain features such flexbox are not supported on Internet Explorer and therefore some feature are not displaying properly. However, Internet Explorer was retired by Microsoft in August 2021 and is no longer supported.
+
+---
+## different devices with Chrome Devtools
 - Tested on the following devices via Chrome Devtools and found to be working as intended:
     - iPhone SE
     - iPhone XR
@@ -78,31 +106,4 @@
     - Nest Hub
     - Nest Hub Max
 
----
-## Manual testing
-
-### Homepage
-- All links tested manually *date* and found to be working as intended
-- Interactive elements tested manually on *date* and found to be working as intended
-
-### Contact page
-- All links tested manually *date* and found to be working as intended
-- Interactive elements tested manually on *date* and found to be working as intended
-- Form validation tested manually on *date* and found to be working as intended
-
-### Sign-up page
-- All links tested manually *date* and found to be working as intended
-- Form validation tested manually on *date* and found to be working as intended
-
-### Thank you page
-- All links tested manually *date* and found to be working as intended
-
----
-## Different browsers
-- Tested and found to be working as intended on the following browsers :
-    - Chrome
-    - Firefox
-    - Microsoft Edge
-- Unable to test on Safari as unble to download on my Windows PC
-- Certain features such flexbox are not supported on Internet Explorer and therefore some feature are not displaying properly. However, Internet Explorer was retired by Microsoft in August 2021 and is no longer supported.
 
