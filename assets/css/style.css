@@ -216,6 +216,7 @@ nav {
     border-radius: 5px;
     text-align: center;
     font-size: 25px;
+    font-weight: 500;
     position: relative;
     top: 100px;
     margin: 20px;
@@ -974,6 +975,12 @@ footer a {
     width: 100%;
 }
 
+iframe {
+    height: 100%;
+    width: 100%;
+
+}
+
 .location-card h3 {
     position: relative;
     bottom: 35px;
@@ -1486,7 +1493,7 @@ textarea:focus {
     }
 }
 
-/* For small-medium screens 730pc and down */
+/* For small-medium screens 730px and down */
 @media screen and (max-width: 730px) {
     header {
         padding-bottom: 0;
@@ -1835,7 +1842,7 @@ textarea:focus {
     }
 
     #slogan {
-        top: 13vh;
+        top: 11vh;
     }
 
     #about-us-container {

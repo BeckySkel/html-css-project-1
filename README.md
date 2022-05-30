@@ -1,6 +1,6 @@
 # GO!gym
 
-![The GO!gym website features displayed on different devises](assets/images/responsive-test.png)
+![The GO!gym website displayed on different devices](assets/images/responsive-test.png)
 
 - GO!gym is a gym with the purpose of motivating it’s members to attend regularly by combining as many desirable gym features in one friendly and accessible place. With this motivation, gym-goers will be more likely to keep on track and achieve their fitness goals, whatever they may be.
 
@@ -253,15 +253,17 @@
      - [The Gym Group](https://www.thegymgroup.com/find-a-gym/oxford-gyms/oxford-headington/?gclid=CjwKCAjw9qiTBhBbEiwAp-GE0TkNKOxib3aQ5R3zSta1WS30X40eqWltln_EsSMRH_HojW1c3d9zYhoCUZkQAvD_BwE&gclsrc=aw.ds)
      - [Better Leisure](https://www.better.org.uk/memberships/gym-membership-deals-and-offers?utm_source=google&utm_medium=paid&utm_campaign=bau&utm_term=better&gclid=CjwKCAjw9qiTBhBbEiwAp-GE0dHDD78e3w0wVUVEFU0C8-EcolRML4_fnci4lanNUSu6KqturOLaTBoCxcEQAvD_BwE&gclsrc=aw.ds) 
      - [Results Health Club](https://resultshealthclubs.co.uk/)
-- Issues with flexbox forcing non-active FAQs to open when another does siolved with help from [Techstacker](https://techstacker.com/prevent-flexbox-child-element-height-stretch-css/)
+- Issues with flexbox forcing non-active FAQs to open along with active ones, solved with help from [Techstacker](https://techstacker.com/prevent-flexbox-child-element-height-stretch-css/)
 - Thank you message after completion of contact form provided by [obayral (user on Stack Overflow)](https://stackoverflow.com/questions/54133144/show-thank-you-message-on-form-submit)
-- Code for maps iframes provided by [Google Maps](https://www.google.com/mapshttps://www.google.com/maps) embed feature. Height and width altered by me to fit
-- Social media links inspired by [Code Institute](https://codeinstitute.net/) Love Running project, heavily altered by me 
+- Code for maps iframes provided by [Google Maps](https://www.google.com/mapshttps://www.google.com/maps) embed feature. Height and width altered by me to fit desired location.
+- Social media links inspired by [Code Institute](https://codeinstitute.net/) Love Running project, heavily altered by me.
+- Issue with select element and required attribute solved with help from [Jibin and Adhan Timothy Younes (users on Stack Overflow)](https://stackoverflow.com/questions/44322824/select-required-not-working)
 - Code for non-sticky footer which is always at bottom of page, even with small amount of content by [CSS Tricks](https://css-tricks.com/couple-takes-sticky-footer/)
 
 ### Media
 - All icons form [Font Awesome](https://fontawesome.com/)
 - All images from [Pexels](https://www.pexels.com/)
+- All Hex to RGBA conversions achieved with [Hex Color Tool](https://www.hexcolortool.com/)
 
 ### Acknowledgements
 - [Code Institute](https://codeinstitute.net/) for providing excellent learning content 
