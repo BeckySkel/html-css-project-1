@@ -31,8 +31,6 @@
                     <li><a href="index.html#about-us">About us</a></li>
                     <li><a href="index.html#faqs">FAQs</a></li>
                 </ul>
-
-
                 <ul class="menu" id="menu-right">
                     <li><a href="contact.html" aria-label="Link to contact page">Contact us</a></li>
                     <li><a href="sign-up.html" class="join-button" aria-label="Link to sign-up page">Join now!</a></li>
@@ -46,119 +44,103 @@
     </div>
 
     <div id="page-content">
-    <section id="sign-up">
-       <div class="faded-container">
-            <h2>Join GO!gym</h2>
+        <section id="sign-up">
+            <div class="faded-container">
+                <h2>Join GO!gym</h2>
+                <p>Required fields marked with a <span class="required">*</span></p>
 
-            <p>Required fields marked with a <span class="required">*</span></p>
+                <form action="thank-you.html" method="GET" id="sign-up-form">
+                    <fieldset id="your-details">
+                        <legend>Your details</legend>
 
-            <form action="thank-you.html" method="GET" id="sign-up-form">
-                <fieldset id="your-details">
-                    <legend>Your details</legend>
-
-                    <div class="form-half">
-                        <label for="title">Title</label>
-                        <input list="titles" name="title" id="title">
-
-                        <datalist id="titles">
-                            <option value="Mr">
-                            <option value="Mrs">
-                            <option value="Miss">
-                            <option value="Ms">
-                        </datalist>
-
-                        <label for="fname">First name <span class="required">*</span></label>
-                        <input type="text" id="fname" name="first-name" required>
-
-                        <label for="lname">Last name <span class="required">*</span></label>
-                        <input type="text" id="lname" name="last-name" required>
-                    </div>
-
-                    <div class="form-half">
-                        <label for="dob">Date of birth <span class="required">*</span></label>
-                        <input type="date" id="dob" name="date-of-birth" required>
-
-                        <label for="phone">Mobile/Phone <span class="required">*</span></label>
-                        <input type="number" id="phone" name="phone-number" required>
-
-                        <label for="email">Email <span class="required">*</span></label>
-                        <input type="email" id="email" name="email" required>
-                    </div>
-                </fieldset>
-
-                <fieldset id="your-membership">
-                    <legend>Your membership</legend>
-
-                    <div class="form-third left">
-                        <label for="pref-location">Preferred Location <span class="required">*</span></label>
-
-                        <select name="pref-location" id="pref-location" required>
-                            <option value="">--Please select--</option>
-                            <option value="birmingham">Birmingham</option>
-                            <option value="london">London</option>
-                            <option value="oxford">Oxford</option>
-                        </select>
-
-                        <div id="ts-and-cs">
-                            <label for="accept-terms">I have read and agree to the <a
-                                    href="assets/documents/gym-ts-and-cs.pdf" target="_blank" aria-label="Link to terms and conditions document (open in a new tab)">terms & conditions</a>
-                                <span class="required">*</span></label>
-                            <input type="checkbox" id="accept-terms" name="accept-terms" value="yes" required>
+                        <div class="form-half">
+                            <label for="title">Title</label>
+                            <input list="titles" name="title" id="title">
+                            <datalist id="titles">
+                                <option value="Mr">
+                                <option value="Mrs">
+                                <option value="Miss">
+                                <option value="Ms">
+                            </datalist>
+                            <label for="fname">First name <span class="required">*</span></label>
+                            <input type="text" id="fname" name="first-name" required>
+                            <label for="lname">Last name <span class="required">*</span></label>
+                            <input type="text" id="lname" name="last-name" required>
                         </div>
 
+                        <div class="form-half">
+                            <label for="dob">Date of birth <span class="required">*</span></label>
+                            <input type="date" id="dob" name="date-of-birth" required>
+                            <label for="phone">Mobile/Phone <span class="required">*</span></label>
+                            <input type="number" id="phone" name="phone-number" required>
+                            <label for="email">Email <span class="required">*</span></label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                    </fieldset>
 
-                    </div>
+                    <fieldset id="your-membership">
+                        <legend>Your membership</legend>
 
+                        <div class="form-third left">
+                            <label for="pref-location">Preferred Location <span class="required">*</span></label>
+                            <select name="pref-location" id="pref-location" required>
+                                <option value="">--Please select--</option>
+                                <option value="birmingham">Birmingham</option>
+                                <option value="london">London</option>
+                                <option value="oxford">Oxford</option>
+                            </select>
 
-                    <div class="form-third membership-options">
-                        <div id="premium-membership" class="membership">
-                            <h3>Premium</h3>
-
-                            <div class="membership-info">
-                                <div class="membership-features">
-                                    <ul>
-                                        <li>Free 1-week trial</li>
-                                        <li>24/7 access to all our gyms</li>
-                                        <li>Unlimited free classes</li>
-                                        <li>£24.99/month</li>
-                                    </ul>
-                                </div>
-
-                                <label for="premium">Choose this membership:</label>
-                                <input type="radio" id="premium" name="membership" value="premium" required>
+                            <div id="ts-and-cs">
+                                <label for="accept-terms">I have read and agree to the <a
+                                        href="assets/documents/gym-ts-and-cs.pdf" target="_blank"
+                                        aria-label="Link to terms and conditions document (open in a new tab)">terms &
+                                        conditions</a>
+                                    <span class="required">*</span></label>
+                                <input type="checkbox" id="accept-terms" name="accept-terms" value="yes" required>
                             </div>
                         </div>
-                    </div>
 
-                    <div class="form-third membership-options">
-
-
-                        <div id="standard-membership" class="membership">
-                            <h3>Standard</h3>
-
-                            <div class="membership-info">
-                                <div class="membership-features">
-                                    <ul>
-                                        <li>Free 1-week trial</li>
-                                        <li>24/7 access to your chosen gym</li>
-                                        <li>1 free class per week</li>
-                                        <li>£19.99/month</li>
-                                    </ul>
+                        <div class="form-third membership-options">
+                            <div id="premium-membership" class="membership">
+                                <h3>Premium</h3>
+                                <div class="membership-info">
+                                    <div class="membership-features">
+                                        <ul>
+                                            <li>Free 1-week trial</li>
+                                            <li>24/7 access to all our gyms</li>
+                                            <li>Unlimited free classes</li>
+                                            <li>£24.99/month</li>
+                                        </ul>
+                                    </div>
+                                    <label for="premium">Choose this membership:</label>
+                                    <input type="radio" id="premium" name="membership" value="premium" required>
                                 </div>
-
-                                <label for="standard">Choose this membership:</label>
-                                <input type="radio" id="standard" name="membership" value="standard">
                             </div>
                         </div>
-                    </div>
 
+                        <div class="form-third membership-options">
+                            <div id="standard-membership" class="membership">
+                                <h3>Standard</h3>
+                                <div class="membership-info">
+                                    <div class="membership-features">
+                                        <ul>
+                                            <li>Free 1-week trial</li>
+                                            <li>24/7 access to your chosen gym</li>
+                                            <li>1 free class per week</li>
+                                            <li>£19.99/month</li>
+                                        </ul>
+                                    </div>
+                                    <label for="standard">Choose this membership:</label>
+                                    <input type="radio" id="standard" name="membership" value="standard">
+                                </div>
+                            </div>
+                        </div>
+                    </fieldset>
 
-                </fieldset>
-
-                <input type="submit" id="submit" value="Submit!">
-            </form>
-        </div>
-    </section>
+                    <input type="submit" id="submit" value="Submit!">
+                </form>
+            </div>
+        </section>
     </div>
 
     <footer>
@@ -193,7 +175,9 @@
             </div>
 
             <div id="back-to-top">
-                <a href="#" aria-label="Return to top of page"><p>Back to top </p><i class="fa-solid fa-circle-chevron-up"></i></a>
+                <a href="#" aria-label="Return to top of page">
+                    <p>Back to top </p><i class="fa-solid fa-circle-chevron-up"></i>
+                </a>
             </div>
         </div>
 

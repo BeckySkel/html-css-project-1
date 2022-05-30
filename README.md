@@ -246,7 +246,6 @@
     5. Wait for site to deploy (this make take a few minutes) 
 - Access the live site [here](https://beckyskel.github.io/html-css-project-1/)
 
-
 ---
 ## Credits
 
