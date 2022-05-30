@@ -234,7 +234,7 @@
 - Sans serif has been used as the fallback option as it is the closest web-safe font.
 
 #### Icons
-- Font Awesome icons were used alongside key information to provide visual aid of the associated information .
+- [Font Awesome](https://fontawesome.com/) icons were used alongside key information to provide visual aid of the associated information .
 - Also used for links and buttons to provide recognisable imagery of the outcome after clicking.
 
 ### Deployment
