@@ -238,7 +238,14 @@
 - Also used for links and buttons to provide recognisable imagery of the outcome after clicking.
 
 ### Deployment
-- 
+- This site was deployed on Github Pages, following the below steps:
+    1. Acces the Github repository [here](https://github.com/BeckySkel/html-css-project-1)
+    2. Navigate to the **Settings** tab (far right tab)
+    3. Open the **Pages** information
+    4. Select branch **main**
+    5. Wait for site to deploy (this make take a few minutes) 
+- Access the live site [here](https://beckyskel.github.io/html-css-project-1/)
+
 
 ---
 ## Credits
