@@ -131,6 +131,7 @@
 - Issue with summary elements showing a single-pixel-wide line of white between the background colour and the border solved by applying separate styling to '[open]' and closed details elements
 
 ### Unresolved Bugs
+- Map iframes are not interactive within the deployed site, but do open up a larger map in a new tab when clicked and therefore still useful to the user. Tried to see if this was an issue with Github pages as the maps are interactive in the testing site but unable to find an answer.
 - Phone simulation on [Am I Responsive?](https://ui.dev/amiresponsive) shows gradient fade div over hero image in an undesirable position. This is not the case when simulating on Devtools and I have been unable to emulate it, and have therefore struggled to resolve it at this stage
 - Number input element in sign-up form sometimes sticks as focused, even when another input it clicked, leaving the element with a white background. I have tried researching ways to fix this but this does not seem to be a problem that other coders often face/notice so have been unable to find guidance on how to prevent it.
 
