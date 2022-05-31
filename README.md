@@ -115,17 +115,19 @@
 - The hero image takes up the majority of the viewport and shows a man running on a treadmill.
 - The bottom of the image fades into a black div to harmonise with the transparent header and transition into the first section. There is a large slogan that spreads across the bottom of the hero image and onto the first section, taking up the rest of the screen-space and further aiding the transition. The overlapping, shadowed text of this slogan is carried throughout the site on headers.
 - The image size and placement changes slightly based on the screen size so the subject is vertically-centred and can always been seen.
+- The large image will capture the users attention and immediately conveys the use of the website.
 
 ![Screenshot of the hero image](assets/images/hero.png)
 
 #### Key points
-- The key selling points are presented on 3 large cards in a line with single sentences and a large icon, relevant to the information
-- These cards provide the user a good starting-point of the most desirable features that the gym has to offer, without having to scroll too far or read too much
+- The key selling points are presented on 3 large cards in a line with single sentences and a large icon, relevant to the information.
+- These cards provide the user a good starting-point of the most desirable features that the gym has to offer, without having to scroll too far or read too much.
 
 ![Screenshot of the key points section](assets/images/key-points.png)
 
 #### About us
-- The about us section consists of a large heading, an image and 3 paragraphs of the gym’s key principles and selling-points. There is also a large ‘Join now!’ link which leads to the sign-up page; the styling of this link is consistent with the same link in the navigation bar 
+- The about us section consists of a large heading, an image and 3 paragraphs of the gym’s key principles and selling-points. There is also a large ‘Join now!’ link which leads to the sign-up page; the styling of this link is consistent with the same link in the navigation bar.
+- The intention is to provide the user with some useful information about the gym and their membership plans.
 - There are 2 links within the text of the paragraphs which lead to the locations section of the contact page and the sign-up page respectively. The text within the link is relevant to the destination but aria labels have been added to avoid ambiguity and let the visually impaired know where the link will take them. These links will be highlighted with a yellow background when hovered over.
 - As the screen size shrinks, the image will display on top of the text to provide more room.
 
@@ -135,6 +137,7 @@
 - The features section is split into 3 captions and their associated images.
 - The caption is a short, single-sentence block of text with a heading. The images relate to what is said in the captions.
 - As the viewport shrinks, the captions and images stack on top of each other to fit the screen.
+- These images and captions provide the user with a peek into the gym and lets them know what to expect should they choose to join.
 
 ![Screenshot of the gym features section](assets/images/features.png)
 
@@ -142,6 +145,7 @@
 - To save space, the FAQs have been placed in details elements which extend when clicked. This was a standard which I noticed when completing research towards this project.
 - The summary of the element is the question, this is always visible, and the response is hidden until the element is clicked. 
 - Styling has been applied when hovering over the summary and when the element is active in order to tell the user that this element can be interacted with and to provide clear definition between the questions and answers when open.
+- The user can interact with these elements to show the answer to any questions they may be interested in.
 - There are 2 internal links within the answer paragraphs which lead to the contact and sign up pages. The text within the links is relevant to the destination but aria labels have been added to aid the visually impaired. The links are highlighted yellow when hovered over.
 
 ![Screenshot of the FAQs section - all elements closed/inactive](assets/images/faqs-closed.png)
@@ -150,13 +154,14 @@
 #### Reviews
 - 3 user reviews have been placed in a container that the user can use links to interact with in order to scroll along, left or right. This is replaced on smaller screens with a plain scrolling section to avoid crowding the screen.
 - Each review has a heading with the reviewers name and a paragraph block with their review.
-- A border with 2 quote icons is placed over the review window and links styled as round buttons with left and right chevrons on placed on either side. These control the direction of the scroll. A transition of XXX seconds has been applied so that there is a smooth scroll between the reviews.
+- Users will be able to see what others have thought about the gym and it's features before they sign up.
+- A border with 2 quote icons is placed over the review window and buttons with left and right chevrons are placed on either side. These control the direction of the scroll. A transition of 0.5 seconds has been applied so that there is a smooth scroll between the reviews.
 - The yellow background is bright and eye-catching and the subtle shadows give the illusion that the review and buttons are floating over the background.
 
 ![Screenshot of the reviews section](assets/images/reviews.png)
 
 #### Footer
-- All pages require some scrolling on most screen sizes and therefore a ‘back to top’ button has been provided.  The button features an up arrow icon for illustration of the outcome. As the screen shrinks, the text is removed and the icon remains so the outcome is clear without visually crowding the footer.  
+- All pages require some scrolling on most screen sizes and therefore a ‘back to top’ button has been provided. The button features an up arrow icon for illustration of the outcome. As the screen shrinks, the text is removed and the icon remains so the outcome is clear without visually crowding the footer.  
 - Non sticky so that the user can see more of the site while scrolling through.
 - External links to social medias, opening in a separate tab. Aria labels provided for visually impaired.
 - The footer mirrors the layout of the header bar for visual balance.
@@ -164,7 +169,7 @@
 ![Screenshot of the footer](assets/images/footer.png)
 
 #### Locations
-- The contact page features 2 sections. The first is the current locations of the gyms, along with their addresses and contact information.
+- The contact page features 2 sections. The first is the current locations of the gyms, along with their addresses and contact information so that the user can contact their gym directly if they need to.
 - The info is presented in floating cards with a google map iframe, a heading with the city name, and a table to present the contact info in an organised way. Clicking a link on the iframe opens a full-size google map in a new tab. 
 - Icons are placed to the left of the contact info to act as bullet points and clues to the instruction of the following information.
 - The 3 cards change shape and configuration on smaller screen sizes until stacked on top of each other.
@@ -218,7 +223,7 @@
 
 #### Colour scheme
 
-![The colour sheme I used](assets/images/colours.png)
+![The colour scheme I used](assets/images/colours.png)
 
 - A bright and energising colour scheme has been used to elicit feelings of excitement and motivation.
 - I used [Coolors](https://coolors.co/) to help pick a colour scheme.

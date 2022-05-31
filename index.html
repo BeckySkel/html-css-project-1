@@ -40,6 +40,7 @@
     </header>
 
     <div id="page-content">
+        <!-- Hero image and large slogan -->
         <section id="home">
             <picture>
                 <source srcset="assets/images/hero-image-small.jpg" media="(max-width: 600px)">
@@ -54,8 +55,11 @@
             </div>
         </section>
 
+        <!-- This is a sticky div that sits behind the transparent header to make it opaque
+             after scrolling past the hero image -->
         <div id="header-backing"></div>
 
+        <!-- 3 main selling points of the gym -->
         <section id="key-points">
             <div id="key-points-container">
                 <div class="card">
@@ -75,6 +79,7 @@
             </div>
         </section>
 
+        <!-- More details about the gym and links to sign up form and contact page -->
         <section id="about-us">
             <h2>About us</h2>
 
@@ -114,6 +119,7 @@
             <a href="sign-up.html" class="join-button" aria-label="Link to sign-up page">Join now!</a>
         </section>
 
+        <!-- Gallery of 3 images and captions of some of the gyms desirable features -->
         <section id="features">
             <div id="features-container">
                 <div class="gym-feature caption-over-image">
@@ -163,6 +169,7 @@
             </div>
         </section>
 
+        <!-- Frequently asked questions contained in extendable details and summary elelments -->
         <section id="faqs">
             <h2>Frequently asked questions <i class="fa-solid fa-comments"></i></h2>
 
@@ -218,11 +225,15 @@
             </div>
         </section>
 
+        <!-- Horizontally-scrolling reviews, controlled by buttons and encased in a viewing window -->
         <section id="reviews">
             <div id="reviews-outer">
                 <h2>Reviews</h2>
 
                 <div id="reviews-inner">
+                    <!-- Buttons to manipulate the scrolling reviews,
+                        links change z-index depending on which review is focused. On smaller screens, buttons are
+                        hidden and view switches to vertically scrolling with scrollbar  -->
                     <button id="blankleft" class="blank left top" aria-label="No more reviews to left"><i
                             class="fa-solid fa-chevron-left"></i></button>
                     <button id="tworight" class="two right top" aria-label="Scroll right to second review"><i
@@ -267,6 +278,7 @@
                         </div>
                     </div>
 
+                    <!-- Window and blocks that hide the unfocused reviews -->
                     <div id="block-window">
                         <div id="block-left" class="review-block"></div>
                         <div id="block-right" class="review-block"></div>
@@ -289,7 +301,7 @@
             </div>
 
             <div id="social-media">
-                <!-- Exernal links to social media sites -->
+                <!-- Exernal links to social media sites, code inspired by Code Institute -->    
                 <ul>
                     <li>
                         <a href="https://twitter.com" target="_blank" rel="noopener"

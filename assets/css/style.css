@@ -17,6 +17,8 @@ body {
     min-width: 300px;
 }
 
+
+/* Code for forcing footer at bottom of page provided by CSS Tricks */
 #page-content {
     min-height: calc(100vh - 100px);
 }
@@ -375,15 +377,17 @@ p a:hover {
     font-size: 65px;
 }
 
+
 #faqs-container {
     position: relative;
     top: 150px;
     display: flex;
     flex-wrap: wrap;
-    align-items: flex-start;
     justify-content: space-around;
     max-width: 1500px;
     margin: 0 auto;
+    /* Solution to flex opening inactive details elements by Techstacker */
+    align-items: flex-start;
 }
 
 /* below code used to remove white edge from background when details element closed */
@@ -675,6 +679,7 @@ footer a {
     top: 1px;
 }
 
+/* Inline social media icons inspired by Code Institute Love Running project*/
 #social-media {
     text-align: center;
     padding: 20px 0;
@@ -1505,6 +1510,7 @@ textarea:focus {
         padding-bottom: 0;
     }
 
+    /* Code for forcing footer at bottom of page provided by CSS Tricks */
     #page-content {
         min-height: calc(100vh - 70px);
     }
@@ -1764,6 +1770,7 @@ textarea:focus {
         top: 10px;
     }
 
+    /* Code for forcing footer at bottom of page provided by CSS Tricks */
     #page-content {
         min-height: calc(100vh - 45px);
     }
