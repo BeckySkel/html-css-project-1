@@ -67,20 +67,20 @@
 ## Manual testing
 
 ### Homepage
-- All links tested manually 31/5/22 and found to be working as intended
-- Interactive elements tested manually on 31/5/22 and found to be working as intended
+- All links tested manually **31/5/22** and found to be working as intended
+- Interactive elements tested manually on **31/5/22** and found to be working as intended
 
 ### Contact page
-- All links tested manually ***date*** and found to be working as intended
-- Interactive elements tested manually on ***date*** and found to be working as intended
-- Form validation tested manually on ***date*** and found to be working as intended
+- All links tested manually **31/5/22** and found to be working as intended
+- Interactive elements tested manually on **31/5/22** and found that map iframes are not interactive within the deployed site, but do open up a larger map in a new tab when clicked and therefore still useful to the user. Tried to see if this was an issue with Github pages as the maps are interactive in the testing site but unable to find an answer.
+- Form validation tested manually on **31/5/22** and found to be working as intended
 
 ### Sign-up page
-- All links tested manually ***date*** and found to be working as intended
-- Form validation tested manually on ***date*** and found to be working as intended
+- All links tested manually **31/5/22** and found to be working as intended
+- Form validation tested manually on **31/5/22** and found to be working as intended
 
 ### Thank you page
-- All links tested manually ***date*** and found to be working as intended
+- All links tested manually **31/5/22** and found to be working as intended
 
 ---
 ## Different browsers
