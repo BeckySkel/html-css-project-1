@@ -67,8 +67,8 @@
 ## Manual testing
 
 ### Homepage
-- All links tested manually ***date*** and found to be working as intended
-- Interactive elements tested manually on ***date*** and found to be working as intended
+- All links tested manually 31/5/22 and found to be working as intended
+- Interactive elements tested manually on 31/5/22 and found to be working as intended
 
 ### Contact page
 - All links tested manually ***date*** and found to be working as intended
